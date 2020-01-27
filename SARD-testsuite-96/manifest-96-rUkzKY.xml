@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="149004" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Eclipse Foundation" numberOfFiles="1" testsuiteid="96">
+    <description><![CDATA[CVE-2009-4612]]></description>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/webapp/snoop.jsp" size="3825" checksum="2bec364060422b475ca5bdb31cfad2c1fc9d72a3">
+      <flaw line="35" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="39" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149005" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Eclipse Foundation" numberOfFiles="4" testsuiteid="96">
+    <description><![CDATA[CVE-2009-4611]]></description>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/webapp/jsp/expr.jsp" size="496" checksum="294ee7d4e40b4a37b13228b99ab57ff0d6f058a2">
+      <flaw line="20" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/java/com/acme/CookieDump.java" language="Java" size="4385" checksum="d8077f8a0eaf7faf7ca706cb4dc472fd9c4531a5">
+      <flaw line="53" name="CWE-020: Improper Input Validation"/>
+      <flaw line="59" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/jetty/HttpConnection.java" language="Java" size="37655" checksum="d6bc3fd0ff92e4da0c581873b4cdc9565a77b225">
+      <flaw line="404" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/jetty/HttpParser.java" language="Java" size="45261" checksum="36fc3f53c2654be61bad91cfc2a89fe3c4e94121">
+      <flaw line="212" name="CWE-020: Improper Input Validation"/>
+      <flaw line="468" name="CWE-020: Improper Input Validation"/>
+    </file>
+  </testcase>
+  <testcase id="149006" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Eclipse Foundation" numberOfFiles="2" testsuiteid="96">
+    <description><![CDATA[CVE-2009-4610]]></description>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/java/com/acme/SessionDump.java" language="Java" size="6736" checksum="958826c23abe29048a084f19817ff84bf8f1e971">
+      <flaw line="128" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="131" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="132" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="134" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/webapp/jsp/dump.jsp" size="576" checksum="a4f050eb3d9841f7c566a625a2151756445f4e8d">
+      <flaw line="12" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="15" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="18" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="19" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149007" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Eclipse Foundation" numberOfFiles="1" testsuiteid="96">
+    <description><![CDATA[CVE-2009-4609]]></description>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/java/com/acme/Dump.java" language="Java" size="30451" checksum="45b00c3672f12d5c484983f791611cd51702356a">
+      <flaw line="329" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="149008" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Eclipse Foundation" numberOfFiles="5" testsuiteid="96">
+    <description><![CDATA[CVE-2009-1523 and CVE-2009-1524]]></description>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/jetty/servlet/DefaultServlet.java" language="Java" size="36718" checksum="45d1dff833a06e887f16cbdfdcb5c5610f516ed2">
+      <flaw line="305" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="384" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="402" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="442" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="475" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="626" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="637" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/util/src/main/java/org/mortbay/util/URIUtil.java" language="Java" size="17585" checksum="1e5f3480dfcb98284f49aebb7027bbdef52f1658">
+      <flaw line="69" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="97" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/jetty/Response.java" language="Java" size="41421" checksum="5edc681931e422a4c11b31b033e2ddb527edbb7c">
+      <flaw line="380" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="409" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/resource/Resource.java" language="Java" size="16157" checksum="f220c2e5fbf865b53640fca5d876764a5a1646ec">
+      <flaw line="420" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="453" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="457" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="461" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/jetty/handler/ResourceHandler.java" language="Java" size="10813" checksum="29f15a1d3fc8908552753ce1bd1d9eaa6b039a66">
+      <flaw line="224" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="246" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="250" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="149009" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Eclipse Foundation" numberOfFiles="13" testsuiteid="96">
+    <description><![CDATA[jetty-6.1.16]]></description>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/webapp/jsp/expr.jsp" size="496" checksum="294ee7d4e40b4a37b13228b99ab57ff0d6f058a2">
+      <flaw line="20" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/webapp/jsp/dump.jsp" size="576" checksum="a4f050eb3d9841f7c566a625a2151756445f4e8d">
+      <flaw line="12" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="15" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="18" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="19" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/java/com/acme/CookieDump.java" language="Java" size="4385" checksum="d8077f8a0eaf7faf7ca706cb4dc472fd9c4531a5">
+      <flaw line="53" name="CWE-020: Improper Input Validation"/>
+      <flaw line="59" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/jetty/servlet/DefaultServlet.java" language="Java" size="36718" checksum="45d1dff833a06e887f16cbdfdcb5c5610f516ed2">
+      <flaw line="305" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="384" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="402" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="442" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="475" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="626" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="637" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/java/com/acme/Dump.java" language="Java" size="30451" checksum="45b00c3672f12d5c484983f791611cd51702356a">
+      <flaw line="329" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/jetty/handler/ResourceHandler.java" language="Java" size="10813" checksum="29f15a1d3fc8908552753ce1bd1d9eaa6b039a66">
+      <flaw line="224" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="246" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="250" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/java/com/acme/SessionDump.java" language="Java" size="6736" checksum="958826c23abe29048a084f19817ff84bf8f1e971">
+      <flaw line="128" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="131" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="132" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="134" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/resource/Resource.java" language="Java" size="16157" checksum="f220c2e5fbf865b53640fca5d876764a5a1646ec">
+      <flaw line="420" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="453" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="457" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="461" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/examples/test-webapp/src/main/webapp/snoop.jsp" size="3825" checksum="2bec364060422b475ca5bdb31cfad2c1fc9d72a3">
+      <flaw line="35" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="39" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/jetty/HttpParser.java" language="Java" size="45261" checksum="36fc3f53c2654be61bad91cfc2a89fe3c4e94121">
+      <flaw line="212" name="CWE-020: Improper Input Validation"/>
+      <flaw line="468" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/jetty/Response.java" language="Java" size="41421" checksum="5edc681931e422a4c11b31b033e2ddb527edbb7c">
+      <flaw line="380" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="409" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/util/src/main/java/org/mortbay/util/URIUtil.java" language="Java" size="17585" checksum="1e5f3480dfcb98284f49aebb7027bbdef52f1658">
+      <flaw line="69" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="97" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/jetty-6.1.16/modules/jetty/src/main/java/org/mortbay/jetty/HttpConnection.java" language="Java" size="37655" checksum="d6bc3fd0ff92e4da0c581873b4cdc9565a77b225">
+      <flaw line="404" name="CWE-020: Improper Input Validation"/>
+    </file>
+  </testcase>
+</container>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="149010" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="3" testsuiteid="97" applicationid="20">
+    <description><![CDATA[CVE-2007-5120]]></description>
+    <file path="SATE/JSPWiki-2.5.124/src/webdocs/Comment.jsp" size="9247" checksum="2304c6a8dc2d743e93779ebac30f5c80ba6bf158">
+      <flaw line="32" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="38" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="39" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="41" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="97" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/JSPWiki-2.5.124/src/webdocs/Edit.jsp" size="9199" checksum="920d1da704f55378550749f53af0dcc3691e61cc">
+      <flaw line="44" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="45" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="47" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="48" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="54" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="60" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/JSPWiki-2.5.124/src/webdocs/Diff.jsp" size="2509" checksum="c7efdf273fd8ba763d7e33ae684d8612cc626192">
+      <flaw line="35" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="36" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149011" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="97" applicationid="20">
+    <description><![CDATA[CVE-2004-1544]]></description>
+    <file path="SATE/JSPWiki-2.5.124/src/webdocs/Search.jsp" size="3432" checksum="fc84cad161417a28c9bcbce591ba277996db3dd4">
+      <flaw line="22" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149012" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="4" testsuiteid="97" applicationid="20">
+    <description><![CDATA[jspwiki-2.5.124]]></description>
+    <file path="SATE/JSPWiki-2.5.124/src/webdocs/Edit.jsp" size="9199" checksum="920d1da704f55378550749f53af0dcc3691e61cc">
+      <flaw line="44" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="45" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="47" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="48" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="54" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="60" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/JSPWiki-2.5.124/src/webdocs/Diff.jsp" size="2509" checksum="c7efdf273fd8ba763d7e33ae684d8612cc626192">
+      <flaw line="35" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="36" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/JSPWiki-2.5.124/src/webdocs/Comment.jsp" size="9247" checksum="2304c6a8dc2d743e93779ebac30f5c80ba6bf158">
+      <flaw line="32" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="38" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="39" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="41" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="97" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/JSPWiki-2.5.124/src/webdocs/Search.jsp" size="3432" checksum="fc84cad161417a28c9bcbce591ba277996db3dd4">
+      <flaw line="22" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+</container>

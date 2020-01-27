@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="148819" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Google inc." numberOfFiles="1" testsuiteid="91">
+    <description><![CDATA[CVE-2010-1773]]></description>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/rendering/RenderListMarker.cpp" language="C++" size="53532" checksum="6ba7a8a8daeb880da858b5a8cc419059a3c91426">
+      <flaw line="105" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148820" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Google inc." numberOfFiles="1" testsuiteid="91">
+    <description><![CDATA[CVE-2010-1772]]></description>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/page/Geolocation.cpp" language="C++" size="20333" checksum="7d3fe0299583852e6ca6cf8f5ba371ec645d2878">
+      <flaw line="100" name="CWE-416: Use After Free"/>
+      <flaw line="106" name="CWE-416: Use After Free"/>
+      <flaw line="122" name="CWE-416: Use After Free"/>
+    </file>
+  </testcase>
+  <testcase id="148821" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Google inc." numberOfFiles="1" testsuiteid="91">
+    <description><![CDATA[CVE-2010-2302]]></description>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/dom/Element.cpp" language="C++" size="52514" checksum="0769acfbf18654383b02b3a32a77206f01fb0306">
+      <flaw line="937" name="CWE-416: Use After Free"/>
+    </file>
+  </testcase>
+  <testcase id="148822" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Google inc." numberOfFiles="1" testsuiteid="91">
+    <description><![CDATA[CVE-2010-2301]]></description>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/editing/markup.cpp" language="C++" size="51771" checksum="a45d838e68864e675de9fda7e50cb193c20c30eb">
+      <flaw line="405" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="148823" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Google inc." numberOfFiles="1" testsuiteid="91">
+    <description><![CDATA[CVE-2010-2300]]></description>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/dom/Element.cpp" language="C++" size="52514" checksum="0769acfbf18654383b02b3a32a77206f01fb0306">
+      <flaw line="1424" name="CWE-416: Use After Free"/>
+    </file>
+  </testcase>
+  <testcase id="148824" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Google inc." numberOfFiles="1" testsuiteid="91">
+    <description><![CDATA[CVE-2010-2299]]></description>
+    <file path="SATE/chrome-5.0.375.54/chrome/browser/renderer_host/resource_message_filter.cc" language="C++" size="58049" checksum="47a1a9da69ee3a2c2d81263329277be9480727ae">
+      <flaw line="871" name="CWE-843: Access of Resource Using Incompatible Type ('Type Confusion')"/>
+    </file>
+  </testcase>
+  <testcase id="148825" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Google inc." numberOfFiles="1" testsuiteid="91">
+    <description><![CDATA[CVE-2010-2298]]></description>
+    <file path="SATE/chrome-5.0.375.54/chrome/browser/renderer_host/database_dispatcher_host.cc" language="C++" size="16964" checksum="e72361fba4f900c07cd5a6d813301dd584bc5fb3">
+      <flaw line="179" name="CWE-265: Privilege / Sandbox Issues"/>
+    </file>
+  </testcase>
+  <testcase id="148826" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Google inc." numberOfFiles="1" testsuiteid="91">
+    <description><![CDATA[CVE-2010-2297]]></description>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/rendering/FixedTableLayout.cpp" language="C++" size="12570" checksum="f6f7aa8c8ef764cd05e345fedfc471f5f06784af">
+      <flaw line="167" name="CWE-020: Improper Input Validation"/>
+    </file>
+  </testcase>
+  <testcase id="148827" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Google inc." numberOfFiles="2" testsuiteid="91">
+    <description><![CDATA[CVE-2010-2295]]></description>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/html/HTMLFrameElementBase.cpp" language="C++" size="9933" checksum="6822672be58268b4acc55fbf6cd4ebf7f0613e69">
+      <flaw line="245" name="CWE-668: Exposure of Resource to Wrong Sphere"/>
+    </file>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/page/EventHandler.cpp" language="C++" size="108354" checksum="e23ab9588af501a20c961fe57c557d65e980b73b">
+      <flaw line="2163" name="CWE-668: Exposure of Resource to Wrong Sphere"/>
+      <flaw line="2185" name="CWE-668: Exposure of Resource to Wrong Sphere"/>
+    </file>
+  </testcase>
+  <testcase id="148828" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Google inc." numberOfFiles="9" testsuiteid="91">
+    <description><![CDATA[chrome-5.0.375.54]]></description>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/editing/markup.cpp" language="C++" size="51771" checksum="a45d838e68864e675de9fda7e50cb193c20c30eb">
+      <flaw line="405" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/chrome-5.0.375.54/chrome/browser/renderer_host/database_dispatcher_host.cc" language="C++" size="16964" checksum="e72361fba4f900c07cd5a6d813301dd584bc5fb3">
+      <flaw line="179" name="CWE-265: Privilege / Sandbox Issues"/>
+    </file>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/html/HTMLFrameElementBase.cpp" language="C++" size="9933" checksum="6822672be58268b4acc55fbf6cd4ebf7f0613e69">
+      <flaw line="245" name="CWE-668: Exposure of Resource to Wrong Sphere"/>
+    </file>
+    <file path="SATE/chrome-5.0.375.54/chrome/browser/renderer_host/resource_message_filter.cc" language="C++" size="58049" checksum="47a1a9da69ee3a2c2d81263329277be9480727ae">
+      <flaw line="871" name="CWE-843: Access of Resource Using Incompatible Type ('Type Confusion')"/>
+    </file>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/rendering/RenderListMarker.cpp" language="C++" size="53532" checksum="6ba7a8a8daeb880da858b5a8cc419059a3c91426">
+      <flaw line="105" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/rendering/FixedTableLayout.cpp" language="C++" size="12570" checksum="f6f7aa8c8ef764cd05e345fedfc471f5f06784af">
+      <flaw line="167" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/page/EventHandler.cpp" language="C++" size="108354" checksum="e23ab9588af501a20c961fe57c557d65e980b73b">
+      <flaw line="2163" name="CWE-668: Exposure of Resource to Wrong Sphere"/>
+      <flaw line="2185" name="CWE-668: Exposure of Resource to Wrong Sphere"/>
+    </file>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/dom/Element.cpp" language="C++" size="52514" checksum="0769acfbf18654383b02b3a32a77206f01fb0306">
+      <flaw line="937" name="CWE-416: Use After Free"/>
+      <flaw line="1424" name="CWE-416: Use After Free"/>
+    </file>
+    <file path="SATE/chrome-5.0.375.54/third_party/WebKit/WebCore/page/Geolocation.cpp" language="C++" size="20333" checksum="7d3fe0299583852e6ca6cf8f5ba371ec645d2878">
+      <flaw line="100" name="CWE-416: Use After Free"/>
+      <flaw line="106" name="CWE-416: Use After Free"/>
+      <flaw line="122" name="CWE-416: Use After Free"/>
+    </file>
+  </testcase>
+</container>

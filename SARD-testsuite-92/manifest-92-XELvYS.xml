@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="148829" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Dovecot" numberOfFiles="7" testsuiteid="92">
+    <description><![CDATA[CVE-2011-1929]]></description>
+    <file path="SATE/dovecot-1.2.0/src/plugins/fts/fts-api.c" language="C" size="8417" checksum="b0bec75fb1db4e5b1ae1a2287ca155e0aa1c8ba5">
+      <flaw line="105" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/lib-storage/mail-storage.c" language="C" size="24489" checksum="b7f9c8d86262514c2333f4dd9e4c31f19d4c0bc4">
+      <flaw line="754" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/lib-mail/message-header-parser.c" language="C" size="10017" checksum="bf1e6afda8c053c61b2494b5f34390db5b4c37b1">
+      <flaw line="314" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="324" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="325" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/plugins/fts/fts-storage.c" language="C" size="29651" checksum="97c9627167682eb2bb62ce4e258c25c58ce0498e">
+      <flaw line="642" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="540" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="169" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="81" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/imap/imap-search.c" language="C" size="16133" checksum="561031811d65d676c8f8382c916b0aaae8ed09c2">
+      <flaw line="557" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="347" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/plugins/fts-squat/fts-backend-squat.c" language="C" size="7046" checksum="69fc523cd5c0a232b3c569f18eef562f1da3d11d">
+      <flaw line="141" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/plugins/fts-squat/squat-trie.c" language="C" size="53781" checksum="a4cb9be64ec94b7222aa9f332a37544a47017f55">
+      <flaw line="964" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="935" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="877" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+  </testcase>
+  <testcase id="148830" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Dovecot" numberOfFiles="1" testsuiteid="92">
+    <description><![CDATA[CVE-2010-3780]]></description>
+    <file path="SATE/dovecot-1.2.0/src/lib/failures.c" language="C" size="11170" checksum="da9322708826a77db48443dc70e37c13555dd8ea">
+      <flaw line="179" name="CWE-364: Signal Handler Race Condition"/>
+      <flaw line="139" name="CWE-364: Signal Handler Race Condition"/>
+      <flaw line="98" name="CWE-364: Signal Handler Race Condition"/>
+      <flaw line="103" name="CWE-364: Signal Handler Race Condition"/>
+      <flaw line="181" name="CWE-364: Signal Handler Race Condition"/>
+      <flaw line="53" name="CWE-364: Signal Handler Race Condition"/>
+    </file>
+  </testcase>
+  <testcase id="148831" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Dovecot" numberOfFiles="1" testsuiteid="92">
+    <description><![CDATA[CVE-2010-3779]]></description>
+    <file path="SATE/dovecot-1.2.0/src/plugins/acl/acl-backend-vfile.c" language="C" size="31608" checksum="710abbd7775640da0e665f1d9209faca973e82e8">
+      <flaw line="739" name="CWE-284: Improper Access Control"/>
+      <flaw line="775" name="CWE-284: Improper Access Control"/>
+      <flaw line="784" name="CWE-284: Improper Access Control"/>
+    </file>
+  </testcase>
+  <testcase id="148832" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Dovecot" numberOfFiles="1" testsuiteid="92">
+    <description><![CDATA[CVE-2010-3707]]></description>
+    <file path="SATE/dovecot-1.2.0/src/plugins/acl/acl-backend-vfile.c" language="C" size="31608" checksum="710abbd7775640da0e665f1d9209faca973e82e8">
+      <flaw line="748" name="CWE-284: Improper Access Control"/>
+      <flaw line="781" name="CWE-284: Improper Access Control"/>
+    </file>
+  </testcase>
+  <testcase id="148833" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Dovecot" numberOfFiles="1" testsuiteid="92">
+    <description><![CDATA[CVE-2010-3706]]></description>
+    <file path="SATE/dovecot-1.2.0/src/plugins/acl/acl-backend-vfile.c" language="C" size="31608" checksum="710abbd7775640da0e665f1d9209faca973e82e8">
+      <flaw line="748" name="CWE-284: Improper Access Control"/>
+      <flaw line="781" name="CWE-284: Improper Access Control"/>
+    </file>
+  </testcase>
+  <testcase id="148834" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Dovecot" numberOfFiles="1" testsuiteid="92">
+    <description><![CDATA[CVE-2010-3304]]></description>
+    <file path="SATE/dovecot-1.2.0/src/plugins/acl/acl-backend-vfile.c" language="C" size="31608" checksum="710abbd7775640da0e665f1d9209faca973e82e8">
+      <flaw line="135" name="CWE-284: Improper Access Control"/>
+    </file>
+  </testcase>
+  <testcase id="148835" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Dovecot" numberOfFiles="1" testsuiteid="92">
+    <description><![CDATA[CVE-2010-0745]]></description>
+    <file path="SATE/dovecot-1.2.0/src/lib-storage/index/index-mail.c" language="C" size="43165" checksum="1e8647fb6dd93396b22b2fe6a33b0fe3abb6565c">
+      <flaw line="819" name="CWE-834: Excessive Iteration"/>
+    </file>
+  </testcase>
+  <testcase id="148836" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Dovecot" numberOfFiles="2" testsuiteid="92">
+    <description><![CDATA[CVE-2009-3897]]></description>
+    <file path="SATE/dovecot-1.2.0/src/lib/mkdir-parents.c" language="C" size="2870" checksum="5733005fb1620837f804f2c95866a8a838ac3e69">
+      <flaw line="123" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+      <flaw line="112" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+      <flaw line="86" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+      <flaw line="104" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+      <flaw line="21" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/master/master-settings.c" language="C" size="46971" checksum="2f173579b203622a3f3fc4d42840349ffe143fdc">
+      <flaw line="977" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+    </file>
+  </testcase>
+  <testcase id="148837" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Dovecot" numberOfFiles="12" testsuiteid="92">
+    <description><![CDATA[dovecot-1.2.0]]></description>
+    <file path="SATE/dovecot-1.2.0/src/plugins/fts/fts-storage.c" language="C" size="29651" checksum="97c9627167682eb2bb62ce4e258c25c58ce0498e">
+      <flaw line="642" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="540" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="169" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="81" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/plugins/fts-squat/squat-trie.c" language="C" size="53781" checksum="a4cb9be64ec94b7222aa9f332a37544a47017f55">
+      <flaw line="964" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="935" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="877" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/plugins/fts-squat/fts-backend-squat.c" language="C" size="7046" checksum="69fc523cd5c0a232b3c569f18eef562f1da3d11d">
+      <flaw line="141" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/imap/imap-search.c" language="C" size="16133" checksum="561031811d65d676c8f8382c916b0aaae8ed09c2">
+      <flaw line="557" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="347" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/plugins/acl/acl-backend-vfile.c" language="C" size="31608" checksum="710abbd7775640da0e665f1d9209faca973e82e8">
+      <flaw line="739" name="CWE-284: Improper Access Control"/>
+      <flaw line="775" name="CWE-284: Improper Access Control"/>
+      <flaw line="784" name="CWE-284: Improper Access Control"/>
+      <flaw line="748" name="CWE-284: Improper Access Control"/>
+      <flaw line="781" name="CWE-284: Improper Access Control"/>
+      <flaw line="135" name="CWE-284: Improper Access Control"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/lib-storage/index/index-mail.c" language="C" size="43165" checksum="1e8647fb6dd93396b22b2fe6a33b0fe3abb6565c">
+      <flaw line="819" name="CWE-834: Excessive Iteration"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/lib/failures.c" language="C" size="11170" checksum="da9322708826a77db48443dc70e37c13555dd8ea">
+      <flaw line="179" name="CWE-364: Signal Handler Race Condition"/>
+      <flaw line="139" name="CWE-364: Signal Handler Race Condition"/>
+      <flaw line="98" name="CWE-364: Signal Handler Race Condition"/>
+      <flaw line="103" name="CWE-364: Signal Handler Race Condition"/>
+      <flaw line="181" name="CWE-364: Signal Handler Race Condition"/>
+      <flaw line="53" name="CWE-364: Signal Handler Race Condition"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/master/master-settings.c" language="C" size="46971" checksum="2f173579b203622a3f3fc4d42840349ffe143fdc">
+      <flaw line="977" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/lib-mail/message-header-parser.c" language="C" size="10017" checksum="bf1e6afda8c053c61b2494b5f34390db5b4c37b1">
+      <flaw line="314" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="324" name="CWE-464: Addition of Data Structure Sentinel"/>
+      <flaw line="325" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/lib/mkdir-parents.c" language="C" size="2870" checksum="5733005fb1620837f804f2c95866a8a838ac3e69">
+      <flaw line="123" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+      <flaw line="112" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+      <flaw line="86" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+      <flaw line="104" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+      <flaw line="21" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/lib-storage/mail-storage.c" language="C" size="24489" checksum="b7f9c8d86262514c2333f4dd9e4c31f19d4c0bc4">
+      <flaw line="754" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+    <file path="SATE/dovecot-1.2.0/src/plugins/fts/fts-api.c" language="C" size="8417" checksum="b0bec75fb1db4e5b1ae1a2287ca155e0aa1c8ba5">
+      <flaw line="105" name="CWE-464: Addition of Data Structure Sentinel"/>
+    </file>
+  </testcase>
+</container>

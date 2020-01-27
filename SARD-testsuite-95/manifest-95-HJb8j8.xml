@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="148967" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2009-3548]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/build/tomcat.nsi" size="19874" checksum="53c23819e6cc07a9b3925eeec02fd58780c7001c">
+      <flaw line="560" name="CWE-255: Credentials Management"/>
+    </file>
+  </testcase>
+  <testcase id="148968" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="3" testsuiteid="95">
+    <description><![CDATA[CVE-2009-2902]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/HostConfig.java" language="Java" size="43443" checksum="1bca3ca041f0b7a1daeba6ca5329ce25e9d65d6a">
+      <flaw line="472" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="681" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/ExpandWar.java" language="Java" size="10784" checksum="e79cd7decd58262c7fff73c75a692906de783abe">
+      <flaw line="264" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="286" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="289" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/ContextConfig.java" language="Java" size="46462" checksum="226ffa0f9c4e7a58f9083d0eefe60da05a810810">
+      <flaw line="1252" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="148969" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="2" testsuiteid="95">
+    <description><![CDATA[CVE-2009-2901]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/ExpandWar.java" language="Java" size="10784" checksum="e79cd7decd58262c7fff73c75a692906de783abe">
+      <flaw line="169" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/ContextConfig.java" language="Java" size="46462" checksum="226ffa0f9c4e7a58f9083d0eefe60da05a810810">
+      <flaw line="1252" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="148970" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="2" testsuiteid="95">
+    <description><![CDATA[CVE-2009-2693]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/loader/WebappClassLoader.java" language="Java" size="73629" checksum="3587648b7f824178a881f5d8ee62ffba8917ae39">
+      <flaw line="1961" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="1969" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/ExpandWar.java" language="Java" size="10784" checksum="e79cd7decd58262c7fff73c75a692906de783abe">
+      <flaw line="157" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="148971" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="3" testsuiteid="95">
+    <description><![CDATA[CVE-2009-0783]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/ContextConfig.java" language="Java" size="46462" checksum="226ffa0f9c4e7a58f9083d0eefe60da05a810810">
+      <flaw line="324" name="CWE-200: Information Exposure"/>
+      <flaw line="350" name="CWE-200: Information Exposure"/>
+      <flaw line="630" name="CWE-200: Information Exposure"/>
+      <flaw line="634" name="CWE-200: Information Exposure"/>
+      <flaw line="697" name="CWE-200: Information Exposure"/>
+      <flaw line="792" name="CWE-200: Information Exposure"/>
+      <flaw line="802" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/core/StandardContext.java" language="Java" size="156750" checksum="95d2969794df87d345c97209a1f15b054851445a">
+      <flaw line="4107" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/TldConfig.java" language="Java" size="24394" checksum="9e34f3ccf33d9cddf283be70b0bfda98e6af359d">
+      <flaw line="507" name="CWE-200: Information Exposure"/>
+      <flaw line="513" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="148972" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2009-0580]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/realm/MemoryRealm.java" language="Java" size="9480" checksum="dcd61008ac0aa08a235a9216023e3819ccf708ce">
+      <flaw line="162" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="148973" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="3" testsuiteid="95">
+    <description><![CDATA[CVE-2009-0033]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/java/org/apache/jk/common/HandlerRequest.java" language="Java" size="22905" checksum="7a9594ba895071c093ed03609fa7adcdaa4ae387">
+      <flaw line="266" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/java/org/apache/jk/common/ChannelNioSocket.java" language="Java" size="37931" checksum="18c0066cff5191c5a9183b60e538565e692c94e8">
+      <flaw line="842" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/java/org/apache/jk/common/ChannelSocket.java" language="Java" size="27241" checksum="c3441d1f23e1dafd15a1f5a59c0c95a35744095c">
+      <flaw line="685" name="CWE-020: Improper Input Validation"/>
+    </file>
+  </testcase>
+  <testcase id="148974" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2008-5519]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/native/common/jk_ajp_common.c" language="C" size="70452" checksum="2f2f060f567d4159eddca8c04baa32e94ad6931f">
+      <flaw line="1326" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="148975" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="4" testsuiteid="95">
+    <description><![CDATA[CVE-2008-5515]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/core/ApplicationContext.java" language="Java" size="29667" checksum="2bce38bd0828598068d6f62542d8c6f670851111">
+      <flaw line="380" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="397" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="449" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/core/ApplicationHttpRequest.java" language="Java" size="25092" checksum="87cd7ff87d572f120c01b802c93bd1e05d604a16">
+      <flaw line="320" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="323" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="326" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/connector/Request.java" language="Java" size="68149" checksum="8e3f6d557f31aa6a0587f658d78303d31bab4447">
+      <flaw line="1239" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="1242" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="1245" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/util/RequestUtil.java" language="Java" size="16283" checksum="2499e0ff4139db188b571bdd76b72475eef2c515">
+      <flaw line="157" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="148976" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2008-4308]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/filters/SavedRequestInputFilter.java" language="Java" size="2619" checksum="8337558426a749a1698caa76adab810115dba007">
+      <flaw line="48" name="CWE-391: Unchecked Error Condition"/>
+      <flaw line="58" name="CWE-391: Unchecked Error Condition"/>
+    </file>
+  </testcase>
+  <testcase id="148977" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2008-2938]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/connector/CoyoteAdapter.java" language="Java" size="20554" checksum="c725e5799b365d1e978977388a820e332c1f3bcd">
+      <flaw line="146" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="228" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="148978" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2008-2370]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/core/ApplicationContext.java" language="Java" size="29667" checksum="2bce38bd0828598068d6f62542d8c6f670851111">
+      <flaw line="380" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="397" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="449" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="148979" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2008-1947]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/host-manager/WEB-INF/classes/org/apache/catalina/hostmanager/HTMLHostManagerServlet.java" language="Java" size="17242" checksum="86b05d7d9549668c9048b2c6b3ac82102e5af7a3">
+      <flaw line="264" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="268" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="272" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="277" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="148980" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="5" testsuiteid="95">
+    <description><![CDATA[CVE-2008-1232]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/InternalAprOutputBuffer.java" language="Java" size="17493" checksum="5c62430a26829e455a67466408c034b3b235b745">
+      <flaw line="431" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="435" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="654" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/InternalOutputBuffer.java" language="Java" size="18509" checksum="1b2702f12e78eeec3f25772069c3932de47f6df9">
+      <flaw line="450" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="454" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="702" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/core/StandardContextValve.java" language="Java" size="8878" checksum="481d6efe4ac52d8c19333590aff4f7d5deacc4d6">
+      <flaw line="126" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="143" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="260" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/Http11Processor.java" language="Java" size="52269" checksum="ef15a07973661e0238dd0ca389d921a4f9bfcee1">
+      <flaw line="962" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="1602" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/Http11AprProcessor.java" language="Java" size="55497" checksum="1ce531bbfc5c2504f637bee5132a4d82e722b56b">
+      <flaw line="935" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="1644" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="148981" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2008-0128]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/authenticator/AuthenticatorBase.java" language="Java" size="27805" checksum="6e998c5a336e38574061dea1441cf71516ed26a2">
+      <flaw line="746" name="CWE-614: Sensitive Cookie in HTTPS Session Without 'Secure' Attribute"/>
+    </file>
+  </testcase>
+  <testcase id="148982" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2007-6286]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jni/native/src/sslnetwork.c" language="C" size="14991" checksum="5bb6d3ba6c498a2e2934a9c30ae34d2a33e03fcb">
+      <flaw line="336" name="CWE-000: Not Determined"/>
+      <flaw line="410" name="CWE-000: Not Determined"/>
+      <flaw line="461" name="CWE-000: Not Determined"/>
+    </file>
+  </testcase>
+  <testcase id="148983" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2007-5461]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/servlets/WebdavServlet.java" language="Java" size="107301" checksum="612850d29a797508d7dd9142be3c9a16abf8e214">
+      <flaw line="261" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="264" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="282" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="856" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="247" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="859" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="148984" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="2" testsuiteid="95">
+    <description><![CDATA[CVE-2007-5342]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/juli/src/java/org/apache/juli/FileHandler.java" language="Java" size="7133" checksum="69c56f2d46944d8fcb1b2a2e76195f33b3473978">
+      <flaw line="197" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+      <flaw line="249" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+      <flaw line="254" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/conf/catalina.policy" size="7455" checksum="249896459dee4e70d24f78070a05d3c648209576">
+      <flaw line="70" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+    </file>
+  </testcase>
+  <testcase id="148985" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="2" testsuiteid="95">
+    <description><![CDATA[CVE-2007-5333]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/util/java/org/apache/tomcat/util/http/Cookies.java" language="Java" size="15858" checksum="c7f098f93e626ea318c1cfeb09ed4c5d979a0fc7">
+      <flaw line="202" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/connector/Request.java" language="Java" size="68149" checksum="8e3f6d557f31aa6a0587f658d78303d31bab4447">
+      <flaw line="2283" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="148986" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2007-3385]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/util/java/org/apache/tomcat/util/http/Cookies.java" language="Java" size="15858" checksum="c7f098f93e626ea318c1cfeb09ed4c5d979a0fc7">
+      <flaw line="252" name="CWE-200: Information Exposure"/>
+      <flaw line="254" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="148987" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2007-3382]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/util/java/org/apache/tomcat/util/http/Cookies.java" language="Java" size="15858" checksum="c7f098f93e626ea318c1cfeb09ed4c5d979a0fc7">
+      <flaw line="252" name="CWE-200: Information Exposure"/>
+      <flaw line="427" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="148988" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2007-2450 and CVE-2007-3386]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/host-manager/WEB-INF/classes/org/apache/catalina/hostmanager/HTMLHostManagerServlet.java" language="Java" size="17242" checksum="86b05d7d9549668c9048b2c6b3ac82102e5af7a3">
+      <flaw line="77" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="79" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="88" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="97" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="101" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="197" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="198" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="250" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="254" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="256" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="259" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="260" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="148989" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="3" testsuiteid="95">
+    <description><![CDATA[CVE-2007-2449]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/snp/snoop.jsp" size="1701" checksum="fc790a72daef730d3ab1feb6bcdf45b54305afe3">
+      <flaw line="23" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="37" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/security/protected/index.jsp" size="1981" checksum="0136e7ca26f7e14dc319b0cc3add2c98e101dd7f">
+      <flaw line="29" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="36" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/source.jsp" size="749" checksum="e79f65851a78c8a6a7a5756385cd44a4a4966ed0">
+      <flaw line="19" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="148990" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2007-1858]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/util/java/org/apache/tomcat/util/net/jsse/JSSESocketFactory.java" language="Java" size="12784" checksum="352a40df5abc367e37d41f5907914c4aace3bd64">
+      <flaw line="191" name="CWE-327: Use of a Broken or Risky Cryptographic Algorithm"/>
+    </file>
+  </testcase>
+  <testcase id="148991" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="2" testsuiteid="95">
+    <description><![CDATA[CVE-2007-1355]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/docs/appdev/sample/src/mypackage/Hello.java" language="Java" size="3070" checksum="f5b306f79a541f07c1e82f8c20e151140e8ca056">
+      <flaw line="84" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/docs/appdev/sample/web/hello.jsp" size="975" checksum="04d81648046abaa231c71751a471dbae168780bc">
+      <flaw line="32" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="148992" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="2" testsuiteid="95">
+    <description><![CDATA[CVE-2007-0450]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/connector/CoyoteAdapter.java" language="Java" size="20554" checksum="c725e5799b365d1e978977388a820e332c1f3bcd">
+      <flaw line="527" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/util/java/org/apache/tomcat/util/buf/UDecoder.java" language="Java" size="7071" checksum="807fbc7d242cc976d17bc878ef01aa8a52af2202">
+      <flaw line="85" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="145" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="148993" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2006-7197]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/native/common/jk_ajp_common.c" language="C" size="70452" checksum="2f2f060f567d4159eddca8c04baa32e94ad6931f">
+      <flaw line="1382" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1383" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148994" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="2" testsuiteid="95">
+    <description><![CDATA[CVE-2006-7196 and CVE-2009-0781]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/security/protected/index.jsp" size="1981" checksum="0136e7ca26f7e14dc319b0cc3add2c98e101dd7f">
+      <flaw line="46" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="52" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="56" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="65" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/cal/cal2.jsp" size="1233" checksum="ee19d6e38f6a5a9e4ccdf57f031e30026d8331d4">
+      <flaw line="27" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="37" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="32" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="148995" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2006-7195]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/jsp2/el/implicit-objects.jsp" size="3041" checksum="f427ea45b2f8bae47c81cfa48c522adfa631ad49">
+      <flaw line="74" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="78" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="82" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="148996" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="2" testsuiteid="95">
+    <description><![CDATA[CVE-2011-0013]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/manager/WEB-INF/classes/org/apache/catalina/manager/StatusTransformer.java" language="Java" size="35128" checksum="d4bb7a080af1b710e45ff9275dbcdb4851076e63">
+      <flaw line="583" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="658" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="786" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="790" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/manager/WEB-INF/classes/org/apache/catalina/manager/HTMLManagerServlet.java" language="Java" size="25816" checksum="01e77cd47dc1a84786778604a28f59b685bec3fe">
+      <flaw line="357" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="363" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="148997" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2010-3718]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/core/StandardContext.java" language="Java" size="156750" checksum="95d2969794df87d345c97209a1f15b054851445a">
+      <flaw line="4822" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+      <flaw line="4832" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+    </file>
+  </testcase>
+  <testcase id="148998" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="3" testsuiteid="95">
+    <description><![CDATA[CVE-2010-2227]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/filters/BufferedInputFilter.java" language="Java" size="3458" checksum="6e8ed63f1064a1aeb4fe7809904c576eff16685e">
+      <flaw line="104" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/Http11Processor.java" language="Java" size="52269" checksum="ef15a07973661e0238dd0ca389d921a4f9bfcee1">
+      <flaw line="1662" name="CWE-020: Improper Input Validation"/>
+      <flaw line="936" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/Http11AprProcessor.java" language="Java" size="55497" checksum="1ce531bbfc5c2504f637bee5132a4d82e722b56b">
+      <flaw line="1704" name="CWE-020: Improper Input Validation"/>
+      <flaw line="908" name="CWE-020: Improper Input Validation"/>
+    </file>
+  </testcase>
+  <testcase id="148999" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="2" testsuiteid="95">
+    <description><![CDATA[CVE-2010-1157]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/authenticator/BasicAuthenticator.java" language="Java" size="7295" checksum="a7dacfbb92d631e40d5f64ddccc51208f1a59cc7">
+      <flaw line="196" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/authenticator/DigestAuthenticator.java" language="Java" size="14893" checksum="5ab1f305c2e75375deace0f0ddbabda1680362dc">
+      <flaw line="408" name="CWE-200: Information Exposure"/>
+      <flaw line="416" name="CWE-200: Information Exposure"/>
+      <flaw line="419" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="149000" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="1" testsuiteid="95">
+    <description><![CDATA[CVE-2011-3190]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/java/org/apache/coyote/ajp/AjpAprProcessor.java" language="Java" size="39132" checksum="72b0117c9265aa269dac136f691cc0ef5d3b9607">
+      <flaw line="973" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+    </file>
+  </testcase>
+  <testcase id="149001" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="3" testsuiteid="95">
+    <description><![CDATA[CVE-2011-2526]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/util/java/org/apache/tomcat/util/net/AprEndpoint.java" language="Java" size="49623" checksum="f7ce5dfc7cf6cfb90b174b4e4deeb984c02e2551">
+      <flaw line="1347" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/Http11AprProcessor.java" language="Java" size="55497" checksum="1ce531bbfc5c2504f637bee5132a4d82e722b56b">
+      <flaw line="898" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/connector/Request.java" language="Java" size="68149" checksum="8e3f6d557f31aa6a0587f658d78303d31bab4447">
+      <flaw line="1365" name="CWE-020: Improper Input Validation"/>
+    </file>
+  </testcase>
+  <testcase id="149002" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="3" testsuiteid="95">
+    <description><![CDATA[CVE-2011-2204]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/users/MemoryUserDatabase.java" language="Java" size="21666" checksum="1f67b69fcbf93a3ef9cdeff755171209679006b4">
+      <flaw line="540" name="CWE-200: Information Exposure"/>
+      <flaw line="543" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/users/MemoryUser.java" language="Java" size="7104" checksum="04d221a2d6645f520f8fae93d0780a93d7866fc7">
+      <flaw line="253" name="CWE-200: Information Exposure"/>
+      <flaw line="291" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java" language="Java" size="12034" checksum="113035dd2e2ac7b4306db18ed8d1732376a3cd2e">
+      <flaw line="237" name="CWE-200: Information Exposure"/>
+      <flaw line="319" name="CWE-200: Information Exposure"/>
+      <flaw line="394" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="149003" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="The Apache Software Foundation" numberOfFiles="49" testsuiteid="95">
+    <description><![CDATA[apache-tomcat-5.5.13]]></description>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/native/common/jk_ajp_common.c" language="C" size="70452" checksum="2f2f060f567d4159eddca8c04baa32e94ad6931f">
+      <flaw line="1326" name="CWE-200: Information Exposure"/>
+      <flaw line="1382" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1383" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/ContextConfig.java" language="Java" size="46462" checksum="226ffa0f9c4e7a58f9083d0eefe60da05a810810">
+      <flaw line="1252" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="324" name="CWE-200: Information Exposure"/>
+      <flaw line="350" name="CWE-200: Information Exposure"/>
+      <flaw line="630" name="CWE-200: Information Exposure"/>
+      <flaw line="634" name="CWE-200: Information Exposure"/>
+      <flaw line="697" name="CWE-200: Information Exposure"/>
+      <flaw line="792" name="CWE-200: Information Exposure"/>
+      <flaw line="802" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java" language="Java" size="12034" checksum="113035dd2e2ac7b4306db18ed8d1732376a3cd2e">
+      <flaw line="237" name="CWE-200: Information Exposure"/>
+      <flaw line="319" name="CWE-200: Information Exposure"/>
+      <flaw line="394" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/core/StandardContext.java" language="Java" size="156750" checksum="95d2969794df87d345c97209a1f15b054851445a">
+      <flaw line="4107" name="CWE-200: Information Exposure"/>
+      <flaw line="4822" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+      <flaw line="4832" name="CWE-732: Incorrect Permission Assignment for Critical Resource"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/manager/WEB-INF/classes/org/apache/catalina/manager/HTMLManagerServlet.java" language="Java" size="25816" checksum="01e77cd47dc1a84786778604a28f59b685bec3fe">
+      <flaw line="357" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="363" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/connector/Request.java" language="Java" size="68149" checksum="8e3f6d557f31aa6a0587f658d78303d31bab4447">
+      <flaw line="1239" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="1242" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="1245" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="2283" name="CWE-200: Information Exposure"/>
+      <flaw line="1365" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/filters/SavedRequestInputFilter.java" language="Java" size="2619" checksum="8337558426a749a1698caa76adab810115dba007">
+      <flaw line="48" name="CWE-391: Unchecked Error Condition"/>
+      <flaw line="58" name="CWE-391: Unchecked Error Condition"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jni/native/src/sslnetwork.c" language="C" size="14991" checksum="5bb6d3ba6c498a2e2934a9c30ae34d2a33e03fcb">
+      <flaw line="336" name="CWE-000: Not Determined"/>
+      <flaw line="410" name="CWE-000: Not Determined"/>
+      <flaw line="461" name="CWE-000: Not Determined"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/core/ApplicationHttpRequest.java" language="Java" size="25092" checksum="87cd7ff87d572f120c01b802c93bd1e05d604a16">
+      <flaw line="320" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="323" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="326" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/build/tomcat.nsi" size="19874" checksum="53c23819e6cc07a9b3925eeec02fd58780c7001c">
+      <flaw line="560" name="CWE-255: Credentials Management"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/users/MemoryUser.java" language="Java" size="7104" checksum="04d221a2d6645f520f8fae93d0780a93d7866fc7">
+      <flaw line="253" name="CWE-200: Information Exposure"/>
+      <flaw line="291" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/authenticator/DigestAuthenticator.java" language="Java" size="14893" checksum="5ab1f305c2e75375deace0f0ddbabda1680362dc">
+      <flaw line="408" name="CWE-200: Information Exposure"/>
+      <flaw line="416" name="CWE-200: Information Exposure"/>
+      <flaw line="419" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/docs/appdev/sample/web/hello.jsp" size="975" checksum="04d81648046abaa231c71751a471dbae168780bc">
+      <flaw line="32" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/security/protected/index.jsp" size="1981" checksum="0136e7ca26f7e14dc319b0cc3add2c98e101dd7f">
+      <flaw line="29" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="36" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="46" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="52" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="56" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="65" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/snp/snoop.jsp" size="1701" checksum="fc790a72daef730d3ab1feb6bcdf45b54305afe3">
+      <flaw line="23" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="37" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/util/RequestUtil.java" language="Java" size="16283" checksum="2499e0ff4139db188b571bdd76b72475eef2c515">
+      <flaw line="157" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/host-manager/WEB-INF/classes/org/apache/catalina/hostmanager/HTMLHostManagerServlet.java" language="Java" size="17242" checksum="86b05d7d9549668c9048b2c6b3ac82102e5af7a3">
+      <flaw line="264" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="268" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="272" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="277" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="77" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="79" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="88" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="97" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="101" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="197" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="198" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="250" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="254" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="256" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="259" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="260" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/realm/MemoryRealm.java" language="Java" size="9480" checksum="dcd61008ac0aa08a235a9216023e3819ccf708ce">
+      <flaw line="162" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/juli/src/java/org/apache/juli/FileHandler.java" language="Java" size="7133" checksum="69c56f2d46944d8fcb1b2a2e76195f33b3473978">
+      <flaw line="197" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+      <flaw line="249" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+      <flaw line="254" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/InternalAprOutputBuffer.java" language="Java" size="17493" checksum="5c62430a26829e455a67466408c034b3b235b745">
+      <flaw line="431" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="435" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="654" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/servlets/WebdavServlet.java" language="Java" size="107301" checksum="612850d29a797508d7dd9142be3c9a16abf8e214">
+      <flaw line="261" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="264" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="282" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="856" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="247" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="859" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/cal/cal2.jsp" size="1233" checksum="ee19d6e38f6a5a9e4ccdf57f031e30026d8331d4">
+      <flaw line="27" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="37" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="32" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/util/java/org/apache/tomcat/util/buf/UDecoder.java" language="Java" size="7071" checksum="807fbc7d242cc976d17bc878ef01aa8a52af2202">
+      <flaw line="85" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="145" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/ExpandWar.java" language="Java" size="10784" checksum="e79cd7decd58262c7fff73c75a692906de783abe">
+      <flaw line="264" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="286" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="289" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="169" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+      <flaw line="157" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/conf/catalina.policy" size="7455" checksum="249896459dee4e70d24f78070a05d3c648209576">
+      <flaw line="70" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/util/java/org/apache/tomcat/util/net/jsse/JSSESocketFactory.java" language="Java" size="12784" checksum="352a40df5abc367e37d41f5907914c4aace3bd64">
+      <flaw line="191" name="CWE-327: Use of a Broken or Risky Cryptographic Algorithm"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/core/StandardContextValve.java" language="Java" size="8878" checksum="481d6efe4ac52d8c19333590aff4f7d5deacc4d6">
+      <flaw line="126" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="143" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="260" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/TldConfig.java" language="Java" size="24394" checksum="9e34f3ccf33d9cddf283be70b0bfda98e6af359d">
+      <flaw line="507" name="CWE-200: Information Exposure"/>
+      <flaw line="513" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/InternalOutputBuffer.java" language="Java" size="18509" checksum="1b2702f12e78eeec3f25772069c3932de47f6df9">
+      <flaw line="450" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="454" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="702" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/Http11Processor.java" language="Java" size="52269" checksum="ef15a07973661e0238dd0ca389d921a4f9bfcee1">
+      <flaw line="962" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="1602" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="1662" name="CWE-020: Improper Input Validation"/>
+      <flaw line="936" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/manager/WEB-INF/classes/org/apache/catalina/manager/StatusTransformer.java" language="Java" size="35128" checksum="d4bb7a080af1b710e45ff9275dbcdb4851076e63">
+      <flaw line="583" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="658" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="786" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="790" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/connector/CoyoteAdapter.java" language="Java" size="20554" checksum="c725e5799b365d1e978977388a820e332c1f3bcd">
+      <flaw line="146" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="228" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="527" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/Http11AprProcessor.java" language="Java" size="55497" checksum="1ce531bbfc5c2504f637bee5132a4d82e722b56b">
+      <flaw line="935" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="1644" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="1704" name="CWE-020: Improper Input Validation"/>
+      <flaw line="908" name="CWE-020: Improper Input Validation"/>
+      <flaw line="898" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/authenticator/AuthenticatorBase.java" language="Java" size="27805" checksum="6e998c5a336e38574061dea1441cf71516ed26a2">
+      <flaw line="746" name="CWE-614: Sensitive Cookie in HTTPS Session Without 'Secure' Attribute"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/java/org/apache/coyote/ajp/AjpAprProcessor.java" language="Java" size="39132" checksum="72b0117c9265aa269dac136f691cc0ef5d3b9607">
+      <flaw line="973" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/webapps/docs/appdev/sample/src/mypackage/Hello.java" language="Java" size="3070" checksum="f5b306f79a541f07c1e82f8c20e151140e8ca056">
+      <flaw line="84" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/util/java/org/apache/tomcat/util/http/Cookies.java" language="Java" size="15858" checksum="c7f098f93e626ea318c1cfeb09ed4c5d979a0fc7">
+      <flaw line="202" name="CWE-200: Information Exposure"/>
+      <flaw line="252" name="CWE-200: Information Exposure"/>
+      <flaw line="254" name="CWE-200: Information Exposure"/>
+      <flaw line="427" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/source.jsp" size="749" checksum="e79f65851a78c8a6a7a5756385cd44a4a4966ed0">
+      <flaw line="19" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/loader/WebappClassLoader.java" language="Java" size="73629" checksum="3587648b7f824178a881f5d8ee62ffba8917ae39">
+      <flaw line="1961" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="1969" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/java/org/apache/jk/common/ChannelSocket.java" language="Java" size="27241" checksum="c3441d1f23e1dafd15a1f5a59c0c95a35744095c">
+      <flaw line="685" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/java/org/apache/jk/common/ChannelNioSocket.java" language="Java" size="37931" checksum="18c0066cff5191c5a9183b60e538565e692c94e8">
+      <flaw line="842" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/startup/HostConfig.java" language="Java" size="43443" checksum="1bca3ca041f0b7a1daeba6ca5329ce25e9d65d6a">
+      <flaw line="472" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="681" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/core/ApplicationContext.java" language="Java" size="29667" checksum="2bce38bd0828598068d6f62542d8c6f670851111">
+      <flaw line="380" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="397" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="449" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/users/MemoryUserDatabase.java" language="Java" size="21666" checksum="1f67b69fcbf93a3ef9cdeff755171209679006b4">
+      <flaw line="540" name="CWE-200: Information Exposure"/>
+      <flaw line="543" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/http11/src/java/org/apache/coyote/http11/filters/BufferedInputFilter.java" language="Java" size="3458" checksum="6e8ed63f1064a1aeb4fe7809904c576eff16685e">
+      <flaw line="104" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/servletapi/jsr152/examples/jsp2/el/implicit-objects.jsp" size="3041" checksum="f427ea45b2f8bae47c81cfa48c522adfa631ad49">
+      <flaw line="74" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="78" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="82" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/container/catalina/src/share/org/apache/catalina/authenticator/BasicAuthenticator.java" language="Java" size="7295" checksum="a7dacfbb92d631e40d5f64ddccc51208f1a59cc7">
+      <flaw line="196" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/jk/java/org/apache/jk/common/HandlerRequest.java" language="Java" size="22905" checksum="7a9594ba895071c093ed03609fa7adcdaa4ae387">
+      <flaw line="266" name="CWE-020: Improper Input Validation"/>
+    </file>
+    <file path="SATE/apache-tomcat-5.5.13-src/connectors/util/java/org/apache/tomcat/util/net/AprEndpoint.java" language="Java" size="49623" checksum="f7ce5dfc7cf6cfb90b174b4e4deeb984c02e2551">
+      <flaw line="1347" name="CWE-020: Improper Input Validation"/>
+    </file>
+  </testcase>
+</container>

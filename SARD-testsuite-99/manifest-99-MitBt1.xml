@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="149025" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-5106]]></description>
+    <file path="SATE/wordpress-2.0/wp-register.php" language="PHP" size="5456" checksum="4c89cd5620d2e395ebba42e4173f12e48db95155">
+      <flaw line="15" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="110" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149026" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-5105]]></description>
+    <file path="SATE/wordpress-2.0/wp-register.php" language="PHP" size="5456" checksum="4c89cd5620d2e395ebba42e4173f12e48db95155">
+      <flaw line="16" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="111" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149027" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-1622]]></description>
+    <file path="SATE/wordpress-2.0/wp-includes/vars.php" language="PHP" size="4069" checksum="fcf267bbee40882a690430d79122c7a235f089be">
+      <flaw line="8" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149028" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-1049]]></description>
+    <file path="SATE/wordpress-2.0/wp-includes/functions.php" language="PHP" size="63171" checksum="7df03ff12409d1ccfdefd3291d668d127c973190">
+      <flaw line="2487" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149029" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-0233]]></description>
+    <association type="replaced" testcaseid="231383"/>
+    <file path="SATE/wordpress-2.0/wp-trackback.php" language="PHP" size="3211" checksum="a37082f8af3d9446442a0222cfe44db3da6adcac">
+      <flaw line="34" name="CWE-094: Improper Control of Generation of Code ('Code Injection')"/>
+    </file>
+  </testcase>
+  <testcase id="149030" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-0109]]></description>
+    <association type="replaced" testcaseid="231384"/>
+    <file path="SATE/wordpress-2.0/wp-login.php" language="PHP" size="10107" checksum="fc3be3069e9a823c19b13371ea740fcd7a57690b">
+      <flaw line="1622" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="149031" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2006-6808]]></description>
+    <file path="SATE/wordpress-2.0/wp-admin/templates.php" language="PHP" size="4865" checksum="f6569e9658ba9211f4d9efd856d21e767769acfb">
+      <flaw line="109" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149032" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2006-1796]]></description>
+    <file path="SATE/wordpress-2.0/wp-includes/template-functions-links.php" language="PHP" size="15813" checksum="4f510d2cf76d56c9b0ac7bfc47dd425727bddd95">
+      <flaw line="385" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149033" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="3" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2006-1263]]></description>
+    <file path="SATE/wordpress-2.0/wp-mail.php" language="PHP" size="5095" checksum="a4b68e010da9ae27a5d7d8f38a63a236a4fff808">
+      <flaw line="64" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-login.php" language="PHP" size="10107" checksum="fc3be3069e9a823c19b13371ea740fcd7a57690b">
+      <flaw line="240" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-register.php" language="PHP" size="5456" checksum="4c89cd5620d2e395ebba42e4173f12e48db95155">
+      <flaw line="30" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="67" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="69" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="110" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149034" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2006-0985]]></description>
+    <file path="SATE/wordpress-2.0/wp-comments-post.php" language="PHP" size="2281" checksum="fd6d579cf706399a7dc9a2552c50f2e80c531956">
+      <flaw line="21" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="22" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="23" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="24" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149035" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-0540]]></description>
+    <association type="replaced" testcaseid="231385"/>
+    <file path="SATE/wordpress-2.0/wp-includes/functions.php" language="PHP" size="63171" checksum="7df03ff12409d1ccfdefd3291d668d127c973190">
+      <flaw line="2019" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+    </file>
+  </testcase>
+  <testcase id="149036" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-0541]]></description>
+    <file path="SATE/wordpress-2.0/wp-includes/functions.php" language="PHP" size="63171" checksum="7df03ff12409d1ccfdefd3291d668d127c973190">
+      <flaw line="2019" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+    </file>
+  </testcase>
+  <testcase id="149037" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-1894]]></description>
+    <file path="SATE/wordpress-2.0/wp-includes/template-functions-general.php" language="PHP" size="21715" checksum="fcda726fa6cc2db44f9b9a8002a73159c73bb48e">
+      <flaw line="185" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149038" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-4893]]></description>
+    <file path="SATE/wordpress-2.0/wp-admin/admin-functions.php" language="PHP" size="58278" checksum="fbaa6d7843fb7fb1d761fb4e89fd727cd247fe5b">
+      <flaw line="62" name="CWE-352: Cross Site Request Forgery"/>
+      <flaw line="200" name="CWE-352: Cross Site Request Forgery"/>
+    </file>
+  </testcase>
+  <testcase id="149039" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2013-7233]]></description>
+    <file path="SATE/wordpress-2.0/wp-admin/options-discussion.php" language="PHP" size="5510" checksum="ab9599e5f10c83cf799367bb1d65caac8155a319">
+      <flaw line="11" name="CWE-352: Cross Site Request Forgery"/>
+    </file>
+  </testcase>
+  <testcase id="149040" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="1" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2006-3389]]></description>
+    <file path="SATE/wordpress-2.0/wp-includes/classes.php" language="PHP" size="49593" checksum="be2aaeec117527a8313212266783c3695b28e58e">
+      <flaw line="605" name="CWE-211: Information Exposure Through Externally-generated Error Message"/>
+      <flaw line="612" name="CWE-211: Information Exposure Through Externally-generated Error Message"/>
+      <flaw line="639" name="CWE-211: Information Exposure Through Externally-generated Error Message"/>
+    </file>
+  </testcase>
+  <testcase id="149041" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="PHP" author="WordPress Foundation" numberOfFiles="13" testsuiteid="99" applicationid="1">
+    <description><![CDATA[wordpress-2.0]]></description>
+    <file path="SATE/wordpress-2.0/wp-includes/functions.php" language="PHP" size="63171" checksum="7df03ff12409d1ccfdefd3291d668d127c973190">
+      <flaw line="2487" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="2019" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-admin/admin-functions.php" language="PHP" size="58278" checksum="fbaa6d7843fb7fb1d761fb4e89fd727cd247fe5b">
+      <flaw line="62" name="CWE-352: Cross Site Request Forgery"/>
+      <flaw line="200" name="CWE-352: Cross Site Request Forgery"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-mail.php" language="PHP" size="5095" checksum="a4b68e010da9ae27a5d7d8f38a63a236a4fff808">
+      <flaw line="64" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-comments-post.php" language="PHP" size="2281" checksum="fd6d579cf706399a7dc9a2552c50f2e80c531956">
+      <flaw line="21" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="22" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="23" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="24" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-login.php" language="PHP" size="10107" checksum="fc3be3069e9a823c19b13371ea740fcd7a57690b">
+      <flaw line="1622" name="CWE-200: Information Exposure"/>
+      <flaw line="240" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-includes/template-functions-links.php" language="PHP" size="15813" checksum="4f510d2cf76d56c9b0ac7bfc47dd425727bddd95">
+      <flaw line="385" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-includes/template-functions-general.php" language="PHP" size="21715" checksum="fcda726fa6cc2db44f9b9a8002a73159c73bb48e">
+      <flaw line="185" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-admin/templates.php" language="PHP" size="4865" checksum="f6569e9658ba9211f4d9efd856d21e767769acfb">
+      <flaw line="109" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-admin/options-discussion.php" language="PHP" size="5510" checksum="ab9599e5f10c83cf799367bb1d65caac8155a319">
+      <flaw line="11" name="CWE-352: Cross Site Request Forgery"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-includes/vars.php" language="PHP" size="4069" checksum="fcf267bbee40882a690430d79122c7a235f089be">
+      <flaw line="8" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-trackback.php" language="PHP" size="3211" checksum="a37082f8af3d9446442a0222cfe44db3da6adcac">
+      <flaw line="34" name="CWE-094: Improper Control of Generation of Code ('Code Injection')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-register.php" language="PHP" size="5456" checksum="4c89cd5620d2e395ebba42e4173f12e48db95155">
+      <flaw line="15" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="110" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="16" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="111" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="30" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="67" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="69" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/wordpress-2.0/wp-includes/classes.php" language="PHP" size="49593" checksum="be2aaeec117527a8313212266783c3695b28e58e">
+      <flaw line="605" name="CWE-211: Information Exposure Through Externally-generated Error Message"/>
+      <flaw line="612" name="CWE-211: Information Exposure Through Externally-generated Error Message"/>
+      <flaw line="639" name="CWE-211: Information Exposure Through Externally-generated Error Message"/>
+    </file>
+  </testcase>
+  <testcase id="231381" type="Source Code" status="Candidate" submissionDate="2017-03-10" language="C" author="WordPress Foundation" numberOfFiles="" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2006-1263 / CVE-2007-5106]]></description>
+    <file path="shared/99/wp-register.php" language="PHP" size="5456" checksum="4c89cd5620d2e395ebba42e4173f12e48db95155">
+      <flaw line="110" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="30" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="67" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="69" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="shared/99/wp-login.php" language="PHP" size="10107" checksum="fc3be3069e9a823c19b13371ea740fcd7a57690b">
+      <flaw line="240" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="shared/99/wp-mail.php" language="PHP" size="5095" checksum="a4b68e010da9ae27a5d7d8f38a63a236a4fff808">
+      <flaw line="64" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="231382" type="Source Code" status="Candidate" submissionDate="2017-03-10" language="C" author="WordPress Foundation" numberOfFiles="" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-0541]]></description>
+    <file path="shared/99/wp-includes/functions.php" language="PHP" size="63171" checksum="7df03ff12409d1ccfdefd3291d668d127c973190">
+      <flaw line="2107" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="231383" type="Source Code" status="Candidate" submissionDate="2017-03-10" language="C" author="WordPress Foundation" numberOfFiles="" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-0233]]></description>
+    <association type="replacing" testcaseid="149029"/>
+    <file path="shared/99/wp-trackback.php" language="PHP" size="3211" checksum="a37082f8af3d9446442a0222cfe44db3da6adcac">
+      <flaw line="65" name="CWE-094: Improper Control of Generation of Code ('Code Injection')"/>
+    </file>
+  </testcase>
+  <testcase id="231384" type="Source Code" status="Candidate" submissionDate="2017-03-10" language="C" author="WordPress Foundation" numberOfFiles="" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-0109]]></description>
+    <association type="replacing" testcaseid="149030"/>
+    <file path="shared/99/wp-includes/pluggable-functions.php" language="PHP" size="14467" checksum="7e4261b6b279532db941033010132022177ab43a">
+      <flaw line="143" name="CWE-200: Information Exposure"/>
+      <flaw line="151" name="CWE-200: Information Exposure"/>
+    </file>
+    <file path="shared/99/wp-login.php" language="PHP" size="10107" checksum="fc3be3069e9a823c19b13371ea740fcd7a57690b">
+      <flaw line="198" name="CWE-200: Information Exposure"/>
+    </file>
+  </testcase>
+  <testcase id="231385" type="Source Code" status="Candidate" submissionDate="2017-03-10" language="C" author="WordPress Foundation" numberOfFiles="" testsuiteid="99" applicationid="1">
+    <description><![CDATA[CVE-2007-0540]]></description>
+    <association type="replacing" testcaseid="149035"/>
+    <file path="shared/99/wp-includes/functions.php" language="PHP" size="63171" checksum="7df03ff12409d1ccfdefd3291d668d127c973190">
+      <flaw line="2107" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+    </file>
+  </testcase>
+</container>

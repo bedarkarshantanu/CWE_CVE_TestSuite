@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="148804" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="3" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-1184]]></description>
+    <association type="replaced" testcaseid="231338"/>
+    <file path="SATE/asterisk-10.2.0/main/utils.c" language="C" size="56431" checksum="44d5366a78e73acc5c67fe55e65fba43ea4baeab">
+      <flaw line="2001" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/main/strings.c" language="C" size="4554" checksum="6e82ef1594bff3ab97e3d328e513f33d6d21a7c6">
+      <flaw line="72" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/include/asterisk/strings.h" language="C" size="29166" checksum="ce4de80fbab78d1b57d92c61dcb6cb5b3dd35929">
+      <flaw line="852" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="782" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148805" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-4737]]></description>
+    <file path="SATE/asterisk-10.2.0/channels/chan_iax2.c" language="C" size="487875" checksum="298e597c5795caebece8a2b28e619b91e5597288">
+      <flaw line="7688" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+      <flaw line="7748" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+    </file>
+  </testcase>
+  <testcase id="148806" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="3" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-5977]]></description>
+    <file path="SATE/asterisk-10.2.0/main/devicestate.c" language="C" size="23903" checksum="433e4346a7299b00cc40b794fcf9bb44b54971c8">
+      <flaw line="447" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="642" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/main/event.c" language="C" size="49200" checksum="79412915da404d95403eab0af5a1d98742f0ee91">
+      <flaw line="1436" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1413" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/res/res_jabber.c" language="C" size="148758" checksum="acbe0e4830658ec14c8715447273601831b07923">
+      <flaw line="3357" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148807" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-2947]]></description>
+    <file path="SATE/asterisk-10.2.0/channels/chan_iax2.c" language="C" size="487875" checksum="298e597c5795caebece8a2b28e619b91e5597288">
+      <flaw line="1939" name="CWE-016: Configuration"/>
+    </file>
+  </testcase>
+  <testcase id="148808" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-3812]]></description>
+    <file path="SATE/asterisk-10.2.0/apps/app_voicemail.c" language="C" size="446352" checksum="cce29e87986310831a3d265f260598f86c31982a">
+      <flaw line="8021" name="CWE-399: Resource Management Errors"/>
+      <flaw line="8024" name="CWE-399: Resource Management Errors"/>
+    </file>
+  </testcase>
+  <testcase id="148809" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-3553]]></description>
+    <file path="SATE/asterisk-10.2.0/channels/chan_skinny.c" language="C" size="242210" checksum="4279c1bae7a93ee07e1756e8b7eeb0ef540127dd">
+      <flaw line="6859" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="2144" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="2535" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="2365" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="4734" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+  </testcase>
+  <testcase id="148810" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="2" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-1183]]></description>
+    <association type="replaced" testcaseid="231337"/>
+    <file path="SATE/asterisk-10.2.0/main/channel.c" language="C" size="293220" checksum="422d1ca5661a362a35dd9255900d33e26bf80362">
+      <flaw line="5075" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/apps/app_milliwatt.c" language="C" size="4399" checksum="3d851c29180ece56ccb02ebc15b67b1829d08bdf">
+      <flaw line="111" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148811" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2013-2686]]></description>
+    <file path="SATE/asterisk-10.2.0/main/http.c" language="C" size="30969" checksum="1c87c55650598a3e1b2bb541e5c3ce5f50046db6">
+      <flaw line="627" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148812" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-3863]]></description>
+    <file path="SATE/asterisk-10.2.0/channels/chan_sip.c" language="C" size="1111669" checksum="381867e083386f83ae095f84896c3797487207a7">
+      <flaw line="20336" name="CWE-399: Resource Management Errors"/>
+    </file>
+  </testcase>
+  <testcase id="148813" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-2186]]></description>
+    <file path="SATE/asterisk-10.2.0/main/manager.c" language="C" size="215608" checksum="e6ea5314d26de87de2283cb7978a5339057ebd29">
+      <flaw line="4125" name="CWE-287: Improper Authentication"/>
+    </file>
+  </testcase>
+  <testcase id="148814" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-2414]]></description>
+    <file path="SATE/asterisk-10.2.0/main/manager.c" language="C" size="215608" checksum="e6ea5314d26de87de2283cb7978a5339057ebd29">
+      <flaw line="3297" name="CWE-287: Improper Authentication"/>
+      <flaw line="3193" name="CWE-287: Improper Authentication"/>
+      <flaw line="4070" name="CWE-287: Improper Authentication"/>
+    </file>
+  </testcase>
+  <testcase id="148815" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-2415]]></description>
+    <file path="SATE/asterisk-10.2.0/channels/chan_skinny.c" language="C" size="242210" checksum="4279c1bae7a93ee07e1756e8b7eeb0ef540127dd">
+      <flaw line="6665" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="6666" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148816" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-2948]]></description>
+    <file path="SATE/asterisk-10.2.0/channels/chan_skinny.c" language="C" size="242210" checksum="4279c1bae7a93ee07e1756e8b7eeb0ef540127dd">
+      <flaw line="3119" name="CWE-399: Resource Management Errors"/>
+      <flaw line="3123" name="CWE-399: Resource Management Errors"/>
+      <flaw line="3127" name="CWE-399: Resource Management Errors"/>
+      <flaw line="3131" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4227" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4251" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4261" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4285" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4360" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4734" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="4752" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4755" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4760" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4763" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4765" name="CWE-399: Resource Management Errors"/>
+      <flaw line="5479" name="CWE-399: Resource Management Errors"/>
+      <flaw line="5509" name="CWE-399: Resource Management Errors"/>
+      <flaw line="5520" name="CWE-399: Resource Management Errors"/>
+    </file>
+  </testcase>
+  <testcase id="148817" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="1" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-2416]]></description>
+    <file path="SATE/asterisk-10.2.0/channels/chan_sip.c" language="C" size="1111669" checksum="381867e083386f83ae095f84896c3797487207a7">
+      <flaw line="22796" name="CWE-199: Information Management Errors"/>
+    </file>
+  </testcase>
+  <testcase id="148818" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="C" author="Digium" numberOfFiles="14" testsuiteid="90" applicationid="19">
+    <description><![CDATA[asterisk-10.2.0]]></description>
+    <file path="SATE/asterisk-10.2.0/channels/chan_sip.c" language="C" size="1111669" checksum="381867e083386f83ae095f84896c3797487207a7">
+      <flaw line="20336" name="CWE-399: Resource Management Errors"/>
+      <flaw line="22796" name="CWE-199: Information Management Errors"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/channels/chan_skinny.c" language="C" size="242210" checksum="4279c1bae7a93ee07e1756e8b7eeb0ef540127dd">
+      <flaw line="6859" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="2144" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="2535" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="2365" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="4734" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="6665" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="6666" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="3119" name="CWE-399: Resource Management Errors"/>
+      <flaw line="3123" name="CWE-399: Resource Management Errors"/>
+      <flaw line="3127" name="CWE-399: Resource Management Errors"/>
+      <flaw line="3131" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4227" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4251" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4261" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4285" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4360" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4752" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4755" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4760" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4763" name="CWE-399: Resource Management Errors"/>
+      <flaw line="4765" name="CWE-399: Resource Management Errors"/>
+      <flaw line="5479" name="CWE-399: Resource Management Errors"/>
+      <flaw line="5509" name="CWE-399: Resource Management Errors"/>
+      <flaw line="5520" name="CWE-399: Resource Management Errors"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/main/utils.c" language="C" size="56431" checksum="44d5366a78e73acc5c67fe55e65fba43ea4baeab">
+      <flaw line="2001" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/main/http.c" language="C" size="30969" checksum="1c87c55650598a3e1b2bb541e5c3ce5f50046db6">
+      <flaw line="627" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/main/channel.c" language="C" size="293220" checksum="422d1ca5661a362a35dd9255900d33e26bf80362">
+      <flaw line="5075" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/main/event.c" language="C" size="49200" checksum="79412915da404d95403eab0af5a1d98742f0ee91">
+      <flaw line="1436" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1413" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/apps/app_milliwatt.c" language="C" size="4399" checksum="3d851c29180ece56ccb02ebc15b67b1829d08bdf">
+      <flaw line="111" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/channels/chan_iax2.c" language="C" size="487875" checksum="298e597c5795caebece8a2b28e619b91e5597288">
+      <flaw line="7688" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+      <flaw line="7748" name="CWE-264: Permissions, Privileges, and Access Controls"/>
+      <flaw line="1939" name="CWE-016: Configuration"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/main/devicestate.c" language="C" size="23903" checksum="433e4346a7299b00cc40b794fcf9bb44b54971c8">
+      <flaw line="447" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="642" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/main/manager.c" language="C" size="215608" checksum="e6ea5314d26de87de2283cb7978a5339057ebd29">
+      <flaw line="4125" name="CWE-287: Improper Authentication"/>
+      <flaw line="3297" name="CWE-287: Improper Authentication"/>
+      <flaw line="3193" name="CWE-287: Improper Authentication"/>
+      <flaw line="4070" name="CWE-287: Improper Authentication"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/apps/app_voicemail.c" language="C" size="446352" checksum="cce29e87986310831a3d265f260598f86c31982a">
+      <flaw line="8021" name="CWE-399: Resource Management Errors"/>
+      <flaw line="8024" name="CWE-399: Resource Management Errors"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/res/res_jabber.c" language="C" size="148758" checksum="acbe0e4830658ec14c8715447273601831b07923">
+      <flaw line="3357" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/include/asterisk/strings.h" language="C" size="29166" checksum="ce4de80fbab78d1b57d92c61dcb6cb5b3dd35929">
+      <flaw line="852" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="782" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/asterisk-10.2.0/main/strings.c" language="C" size="4554" checksum="6e82ef1594bff3ab97e3d328e513f33d6d21a7c6">
+      <flaw line="72" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="231334" type="Source Code" status="Candidate" submissionDate="2017-03-10" language="C" author="Digium" numberOfFiles="" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-2416]]></description>
+    <file path="shared/90/channels/chan_sip.c" language="C" size="1111669" checksum="381867e083386f83ae095f84896c3797487207a7">
+      <flaw line="22796" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="231335" type="Source Code" status="Candidate" submissionDate="2017-03-10" language="C" author="Digium" numberOfFiles="" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-4737]]></description>
+    <file path="shared/90/channels/chan_iax2.c" language="C" size="487875" checksum="298e597c5795caebece8a2b28e619b91e5597288">
+      <flaw line="7688" name="CWE-284: Improper Access Control"/>
+      <flaw line="7748" name="CWE-284: Improper Access Control"/>
+    </file>
+  </testcase>
+  <testcase id="231336" type="Source Code" status="Candidate" submissionDate="2017-03-10" language="C" author="Digium" numberOfFiles="" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-2947]]></description>
+    <file path="shared/90/channels/chan_iax2.c" language="C" size="487875" checksum="298e597c5795caebece8a2b28e619b91e5597288">
+      <flaw line="1939" name="CWE-730: OWASP Top Ten 2004 Category A9 - Denial of Service"/>
+    </file>
+  </testcase>
+  <testcase id="231337" type="Source Code" status="Candidate" submissionDate="2017-03-10" language="C" author="Digium" numberOfFiles="" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-1183]]></description>
+    <association type="replacing" testcaseid="148810"/>
+    <file path="shared/90/apps/app_milliwatt.c" language="C" size="4399" checksum="3d851c29180ece56ccb02ebc15b67b1829d08bdf">
+      <flaw line="101" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="106" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="107" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="98" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="231338" type="Source Code" status="Candidate" submissionDate="2017-03-10" language="C" author="Digium" numberOfFiles="" testsuiteid="90" applicationid="19">
+    <description><![CDATA[CVE-2012-1184]]></description>
+    <association type="replacing" testcaseid="148804"/>
+    <file path="shared/90/main/utils.c" language="C" size="56431" checksum="44d5366a78e73acc5c67fe55e65fba43ea4baeab">
+      <flaw line="1993" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2017" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2031" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2036" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+</container>

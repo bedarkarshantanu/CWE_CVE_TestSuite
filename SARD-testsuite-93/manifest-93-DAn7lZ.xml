@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="148838" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="2" testsuiteid="93">
+    <description><![CDATA[CVE-2011-2597]]></description>
+    <file path="SATE/wireshark-1.2.0/wiretap/ascend-scanner.c" language="C" size="80057" checksum="398b19c9745c191ef730294f4684778b93a17c82">
+      <flaw line="1" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/ascend-scanner.l" size="7044" checksum="5327e7c9165542c6d2d202a24b7fec7c5c7faf0a">
+      <flaw line="162" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="167" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="172" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="203" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="213" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="219" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="230" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="318" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+    </file>
+  </testcase>
+  <testcase id="148839" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="3" testsuiteid="93">
+    <description><![CDATA[CVE-2011-2175]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/tvbuff.c" language="C" size="75514" checksum="14cb5665d4ea9a9f1d079fba16596e1f3f9ea276">
+      <flaw line="220" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/visual.c" language="C" size="31118" checksum="c5e8ade36ac5feeed985de8979c611fdf2c98ef2">
+      <flaw line="403" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="408" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="414" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/epan.c" language="C" size="4417" checksum="e561eba0e14bf8c98afe07d32be4dad2efffda92">
+      <flaw line="185" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+    </file>
+  </testcase>
+  <testcase id="148840" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="2" testsuiteid="93">
+    <description><![CDATA[CVE-2011-2174]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-http.c" language="C" size="76609" checksum="522a895389e345b66d34d57f28e80ecc4429bfdc">
+      <flaw line="2208" name="CWE-415: Double Free"/>
+      <flaw line="1103" name="CWE-415: Double Free"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/tvbuff.c" language="C" size="75514" checksum="14cb5665d4ea9a9f1d079fba16596e1f3f9ea276">
+      <flaw line="3097" name="CWE-415: Double Free"/>
+      <flaw line="3064" name="CWE-415: Double Free"/>
+      <flaw line="3084" name="CWE-415: Double Free"/>
+    </file>
+  </testcase>
+  <testcase id="148841" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="3" testsuiteid="93">
+    <description><![CDATA[CVE-2011-1959]]></description>
+    <file path="SATE/wireshark-1.2.0/wiretap/snoop.c" language="C" size="29680" checksum="98d18156f8773ed8bb3de3f65d265eaa6c539823">
+      <flaw line="448" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/epan.c" language="C" size="4417" checksum="e561eba0e14bf8c98afe07d32be4dad2efffda92">
+      <flaw line="185" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/tvbuff.c" language="C" size="75514" checksum="14cb5665d4ea9a9f1d079fba16596e1f3f9ea276">
+      <flaw line="221" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+  </testcase>
+  <testcase id="148842" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="2" testsuiteid="93">
+    <description><![CDATA[CVE-2011-1958]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/diam_dict.l" size="17899" checksum="fe01cc09ed3267c72e7418a79bb1d48d75bc863f">
+      <flaw line="272" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="311" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/diam_dict.c" language="C" size="92592" checksum="81e49becee135b52de76b32c71e6c75cb6a1ef77">
+      <flaw line="1477" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1545" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+  </testcase>
+  <testcase id="148843" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2011-1957]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-dcm.c" language="C" size="329975" checksum="818e8dfe7d04299aede6b0f28f49755491363c60">
+      <flaw line="6373" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="6352" name="CWE-190: Integer Overflow or Wraparound"/>
+    </file>
+  </testcase>
+  <testcase id="148844" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2011-1590]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-x509if.c" language="C" size="124512" checksum="a1ce0f04232bbf1211728282f72b5851b742b85c">
+      <flaw line="303" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="397" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="425" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="478" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="601" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="622" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="652" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="799" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="811" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="1369" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="1403" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="1465" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="1566" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="1687" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="307" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="869" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="308" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="936" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="309" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="358" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="415" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="873" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="310" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="366" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="315" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="911" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="914" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="918" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="316" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="359" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="416" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="875" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="322" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="427" name="CWE-457: Use of Uninitialized Variable"/>
+    </file>
+  </testcase>
+  <testcase id="148845" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2011-1143]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ntlmssp.c" language="C" size="69818" checksum="f6fa88d88944f20f40fc1b8fb9bbaabf2a0afe9a">
+      <flaw line="388" name="CWE-690: Null Deref from Return"/>
+      <flaw line="392" name="CWE-690: Null Deref from Return"/>
+      <flaw line="1098" name="CWE-690: Null Deref from Return"/>
+      <flaw line="1107" name="CWE-690: Null Deref from Return"/>
+      <flaw line="1120" name="CWE-690: Null Deref from Return"/>
+    </file>
+  </testcase>
+  <testcase id="148846" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="2" testsuiteid="93">
+    <description><![CDATA[CVE-2011-1142]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ber.c" language="C" size="151226" checksum="131bc24cd7b2701cf508b6e69e0d3e78e3e212e1">
+      <flaw line="2506" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-mms.c" language="C" size="438232" checksum="c912f8018fd57ef1cdab4db866ab5b63f5c867df">
+      <flaw line="4404" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+    </file>
+  </testcase>
+  <testcase id="148847" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2011-1141]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ldap.c" language="C" size="189015" checksum="80169e6b521855e9f4bdb024935da6defea85b4f">
+      <flaw line="2032" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+  </testcase>
+  <testcase id="148848" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="3" testsuiteid="93">
+    <description><![CDATA[CVE-2011-1140]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-smb-common.c" language="C" size="8879" checksum="d001d5861497c7d01dec6dec72eed44ec994866b">
+      <flaw line="129" name="CWE-674: Uncontrolled Recursion"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/asn1/ldap/packet-ldap-template.c" language="C" size="73411" checksum="1bff98813151a817c9d94bc6a826e361ec1395ed">
+      <flaw line="1102" name="CWE-674: Uncontrolled Recursion"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ldap.c" language="C" size="189015" checksum="80169e6b521855e9f4bdb024935da6defea85b4f">
+      <flaw line="3640" name="CWE-674: Uncontrolled Recursion"/>
+    </file>
+  </testcase>
+  <testcase id="148849" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="5" testsuiteid="93">
+    <description><![CDATA[CVE-2011-1139]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/packet.c" language="C" size="51107" checksum="d84cf2bcdc0d110eb8c49162446ad8f8167a42b2">
+      <flaw line="328" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="343" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/tvbuff.c" language="C" size="75514" checksum="14cb5665d4ea9a9f1d079fba16596e1f3f9ea276">
+      <flaw line="288" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="262" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/tshark.c" language="C" size="100915" checksum="c8bf204a460489e8f2e623dcebaab1a9bb8294c5">
+      <flaw line="2411" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="2329" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="2430" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="2444" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="2505" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/pcapng.c" language="C" size="52027" checksum="2d4b99a25f80764f114f4586ebeec7d96a8d8497">
+      <flaw line="673" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="686" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="693" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="696" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="710" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="717" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="836" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="845" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="847" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="1213" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/epan.c" language="C" size="4417" checksum="e561eba0e14bf8c98afe07d32be4dad2efffda92">
+      <flaw line="172" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="185" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+    </file>
+  </testcase>
+  <testcase id="148850" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2011-0713]]></description>
+    <file path="SATE/wireshark-1.2.0/wiretap/dct3trace.c" language="C" size="9769" checksum="523e57511b1c535f73ee61e72ca767650388c255">
+      <flaw line="375" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="216" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="286" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="316" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="388" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148851" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2011-0444 (1)]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-mac-lte.c" language="C" size="65247" checksum="106a824b55207eeb8e0c22abb41fd7bb2148587b">
+      <flaw line="467" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="556" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="561" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="569" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148852" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2011-0444 (2)]]></description>
+    <file path="SATE/wireshark-1.2.0/asn1/snmp/packet-snmp-template.c" language="C" size="66787" checksum="3d8bea7693802fbde2846956b5498fd2958cd2e7">
+      <flaw line="1768" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148853" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2010-4300]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ldss.c" language="C" size="33083" checksum="368f2a0908d66313baea23a893d6b59b86794fca">
+      <flaw line="814" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="611" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="612" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148854" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2010-3445]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ber.c" language="C" size="151226" checksum="131bc24cd7b2701cf508b6e69e0d3e78e3e212e1">
+      <flaw line="376" name="CWE-674: Uncontrolled Recursion"/>
+      <flaw line="452" name="CWE-674: Uncontrolled Recursion"/>
+      <flaw line="565" name="CWE-674: Uncontrolled Recursion"/>
+    </file>
+  </testcase>
+  <testcase id="148855" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="4" testsuiteid="93">
+    <description><![CDATA[CVE-2010-3133]]></description>
+    <file path="SATE/wireshark-1.2.0/gtk/main.c" language="C" size="112732" checksum="c65ef1804f2d89e2b10213d54de28d048ed4f10b">
+      <flaw line="2754" name="CWE-426: Untrusted Search Path"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/capture_wpcap_packet.c" language="C" size="9562" checksum="3cfbb48801e2744dbff4ed24587e0217eaa709a1">
+      <flaw line="160" name="CWE-426: Untrusted Search Path"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/airpcap_loader.c" language="C" size="71531" checksum="8158f93064fc6b470da29581048117c9f655b49d">
+      <flaw line="2454" name="CWE-426: Untrusted Search Path"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/capture-wpcap.c" language="C" size="21462" checksum="6e2799a05918d24f6c5ee73ba370ee1d670bb833">
+      <flaw line="190" name="CWE-426: Untrusted Search Path"/>
+      <flaw line="832" name="CWE-426: Untrusted Search Path"/>
+    </file>
+  </testcase>
+  <testcase id="148856" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2010-2995]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/sigcomp-udvm.c" language="C" size="112031" checksum="87a4f314392042e8b27ee0a60cb928b9c8f417a8">
+      <flaw line="341" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="404" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="446" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="481" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="522" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="563" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="603" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="643" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="691" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="741" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="791" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="944" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1002" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1296" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2051" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2237" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2813" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2825" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2878" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2979" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2883" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2896" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2909" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2966" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="3023" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="3031" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="3058" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="3060" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148857" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2010-2993]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ipmi.c" language="C" size="43493" checksum="4fa6af591d74a0ebb64cb38d8a8d30524c82f8c2">
+      <flaw line="1132" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="1337" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+    </file>
+  </testcase>
+  <testcase id="148858" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2010-2287]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/sigcomp-udvm.c" language="C" size="112031" checksum="87a4f314392042e8b27ee0a60cb928b9c8f417a8">
+      <flaw line="326" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2580" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148859" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2010-2286]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/sigcomp-udvm.c" language="C" size="112031" checksum="87a4f314392042e8b27ee0a60cb928b9c8f417a8">
+      <flaw line="1928" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="337" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+    </file>
+  </testcase>
+  <testcase id="148860" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2010-2285]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-smb-pipe.c" language="C" size="117072" checksum="968de7922282bd6f30a0209d0c7f49904953cd06">
+      <flaw line="2136" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+  </testcase>
+  <testcase id="148861" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2010-2284]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ber.c" language="C" size="151226" checksum="131bc24cd7b2701cf508b6e69e0d3e78e3e212e1">
+      <flaw line="763" name="CWE-674: Uncontrolled Recursion"/>
+      <flaw line="802" name="CWE-674: Uncontrolled Recursion"/>
+    </file>
+  </testcase>
+  <testcase id="148862" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2010-2283]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-smb.c" language="C" size="570611" checksum="31c6386fa8166f32a21481f966600318d3693c31">
+      <flaw line="8524" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8702" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8211" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+  </testcase>
+  <testcase id="148863" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="11" testsuiteid="93">
+    <description><![CDATA[CVE-2010-1455]]></description>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-dscrsp.c" language="C" size="4598" checksum="930f17afacd1f950fa516563f24dc695a8e696c2">
+      <flaw line="73" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-bpkmrsp.c" language="C" size="5141" checksum="482365c3980829bb1ac990d7bd2b4b4e6a327bb4">
+      <flaw line="90" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-dsaack.c" language="C" size="4595" checksum="d17a483a40585db71419ade53423a0565b35f895">
+      <flaw line="72" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/emem.c" language="C" size="43442" checksum="86bea42cd3f2481d24d8ff191861b2d920af97e9">
+      <flaw line="574" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+      <flaw line="560" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-regack.c" language="C" size="4580" checksum="26fb7467e4c97f3882cfdc2e8c92e8c5f6608c48">
+      <flaw line="72" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-dsarsp.c" language="C" size="4598" checksum="66ad4b263abf3584ab7808e01c823c5f573ffcf5">
+      <flaw line="72" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-regrsp.c" language="C" size="4568" checksum="90a6e309a086a71e535c35afbaf403f7a2f7262d">
+      <flaw line="73" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-bpkmreq.c" language="C" size="5129" checksum="77992f7716ece5f128510d490d03c4fb6f5ddeda">
+      <flaw line="89" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-dscack.c" language="C" size="4603" checksum="1564b8cdcbe0a8482e178b7beaefc756dd1d42ff">
+      <flaw line="72" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-map.c" language="C" size="9111" checksum="6c4d5d3c96dd130cce66acf03e3315034750894f">
+      <flaw line="162" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+      <flaw line="167" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/value_string.c" language="C" size="5692" checksum="e42e7ae2970c72744a559b630bc2e014f7ada2de">
+      <flaw line="49" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+  </testcase>
+  <testcase id="148864" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2010-0304]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-lwres.c" language="C" size="37460" checksum="59a750a1d992f5c77e077770550f3d0e4f0feff1">
+      <flaw line="429" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="447" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="448" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="449" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="428" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="484" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="485" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="486" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="514" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="521" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="522" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="523" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="573" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="595" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="596" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="597" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="574" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="641" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="642" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="643" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="943" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="951" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="952" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="953" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1005" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1016" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1017" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1018" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148865" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-4378]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ipmi.c" language="C" size="43493" checksum="4fa6af591d74a0ebb64cb38d8a8d30524c82f8c2">
+      <flaw line="792" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+  </testcase>
+  <testcase id="148866" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="2" testsuiteid="93">
+    <description><![CDATA[CVE-2009-4377]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-smb.c" language="C" size="570611" checksum="31c6386fa8166f32a21481f966600318d3693c31">
+      <flaw line="8667" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8435" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8437" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8439" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8457" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-smb2.c" language="C" size="187368" checksum="483ff36d8b91e6312eb35ed16df15feff5c1c652">
+      <flaw line="955" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+  </testcase>
+  <testcase id="148867" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-4376]]></description>
+    <file path="SATE/wireshark-1.2.0/wiretap/daintree-sna.c" language="C" size="8256" checksum="4896ce13224e25b27e39e84714c1c5ef6fdf94fa">
+      <flaw line="81" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="149" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="82" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="205" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148868" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-3829]]></description>
+    <file path="SATE/wireshark-1.2.0/wiretap/erf.c" language="C" size="13117" checksum="c5e62c1f3abafe5a521cb490fbf2aa435b486c07">
+      <flaw line="109" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="127" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="129" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="134" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="138" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="186" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="204" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="213" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="221" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+    </file>
+  </testcase>
+  <testcase id="148869" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-3551]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-smb.c" language="C" size="570611" checksum="31c6386fa8166f32a21481f966600318d3693c31">
+      <flaw line="2174" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2191" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2195" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2196" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148870" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-3550]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-dcerpc-nt.c" language="C" size="48661" checksum="553e1d7a4367f62435a69966e9d484297f2df6ff">
+      <flaw line="248" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="252" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="256" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1138" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1142" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1146" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1201" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1205" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1209" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1314" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1318" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1322" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+  </testcase>
+  <testcase id="148871" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-3549]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-paltalk.c" language="C" size="4432" checksum="fe6604e58967e777664da1eba3cd3a0caa53a317">
+      <flaw line="62" name="CWE-188: Reliance on Data/Memory Layout"/>
+    </file>
+  </testcase>
+  <testcase id="148872" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="2" testsuiteid="93">
+    <description><![CDATA[CVE-2009-3243]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-dtls.c" language="C" size="72858" checksum="ffab00060e10aa0b3e4f3e2be14a019794e70a88">
+      <flaw line="787" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="845" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="908" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="920" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1078" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1087" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ssl.c" language="C" size="160426" checksum="287779c655352f22519386750f77697dd74bad4f">
+      <flaw line="1498" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="736" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1329" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1402" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1583" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1621" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1683" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1695" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1794" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1802" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148873" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="2" testsuiteid="93">
+    <description><![CDATA[CVE-2009-3242]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/packet.c" language="C" size="51107" checksum="d84cf2bcdc0d110eb8c49162446ad8f8167a42b2">
+      <flaw line="1799" name="CWE-457: Use of Uninitialized Variable"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-gsm_a_rr.c" language="C" size="366379" checksum="0aa307da7ff1046da51b44a37651ef47b5b9b510">
+      <flaw line="693" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="8447" name="CWE-457: Use of Uninitialized Variable"/>
+    </file>
+  </testcase>
+  <testcase id="148874" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-3241]]></description>
+    <file path="SATE/wireshark-1.2.0/plugins/opcua/opcua_simpletypes.c" language="C" size="36827" checksum="fa544ce10b7544bc646e5e7e76ebbd022c16fbcb">
+      <flaw line="648" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+      <flaw line="677" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+      <flaw line="703" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+      <flaw line="728" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+    </file>
+  </testcase>
+  <testcase id="148875" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-2563]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-infiniband.c" language="C" size="163532" checksum="bfcb653721e2a726a61dd11609ae0fef6b450f81">
+      <flaw line="945" name="CWE-416: Use After Free"/>
+    </file>
+  </testcase>
+  <testcase id="148876" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-2562]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-afs.c" language="C" size="110671" checksum="6254cf4605b8752d150a31c25b537da7958d8af1">
+      <flaw line="425" name="CWE-125: Out-of-bounds Read"/>
+    </file>
+  </testcase>
+  <testcase id="148877" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-2561]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-sflow.c" language="C" size="68549" checksum="c910e466c4e2f2cd3b937148b02a7737008fddcf">
+      <flaw line="962" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1019" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1131" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1159" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1175" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="577" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="580" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="583" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="587" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="692" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="701" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="703" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="705" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="707" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="720" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="724" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="727" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="729" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="732" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="734" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="737" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="739" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="741" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="744" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="747" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="757" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="759" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="761" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="763" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="775" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="779" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="783" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="788" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="793" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="795" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="815" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="818" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="821" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="826" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="853" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="855" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="868" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="878" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="883" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="886" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="899" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="902" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="906" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="909" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="913" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="925" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="928" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="932" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="934" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="937" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="941" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="961" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="967" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="970" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="972" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="975" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="978" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="981" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="984" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="992" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="997" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1012" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1018" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1070" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1085" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1130" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1136" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1139" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1141" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1146" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1150" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1170" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1174" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1191" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1193" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1195" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1197" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1201" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1203" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1205" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1207" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1209" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1211" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1213" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1215" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1217" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1219" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1221" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1223" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1225" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1227" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1229" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1237" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1239" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1241" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1243" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1245" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1247" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1249" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1251" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1253" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1255" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1257" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1259" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1261" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1264" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1267" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1270" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1273" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1331" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1382" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1386" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1395" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1404" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1418" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1424" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1426" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1432" name="CWE-190: Integer Overflow or Wraparound"/>
+    </file>
+  </testcase>
+  <testcase id="148878" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-2560 (1)]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-btl2cap.c" language="C" size="42203" checksum="5716965a5b3c983db6c1986b12ddf6e2b4d914b3">
+      <flaw line="805" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="973" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="659" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="668" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="669" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148879" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-2560 (2)]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-radius.c" language="C" size="67778" checksum="0e92a8cd466b240107a07242279a1f0efdb912bc">
+      <flaw line="880" name="CWE-460: Improper Cleanup on Thrown Exception"/>
+      <flaw line="897" name="CWE-460: Improper Cleanup on Thrown Exception"/>
+      <flaw line="906" name="CWE-460: Improper Cleanup on Thrown Exception"/>
+      <flaw line="913" name="CWE-460: Improper Cleanup on Thrown Exception"/>
+      <flaw line="1005" name="CWE-460: Improper Cleanup on Thrown Exception"/>
+    </file>
+  </testcase>
+  <testcase id="148880" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="1" testsuiteid="93">
+    <description><![CDATA[CVE-2009-2559]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ipmi-se.c" language="C" size="124068" checksum="72e16c1c220cfebcda49222030f8f8889cdd461d">
+      <flaw line="2727" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2737" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2743" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2746" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2748" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2752" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+  </testcase>
+  <testcase id="148881" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="C" author="Wireshark Foundation" numberOfFiles="59" testsuiteid="93">
+    <description><![CDATA[wireshark-1.2.0]]></description>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ldss.c" language="C" size="33083" checksum="368f2a0908d66313baea23a893d6b59b86794fca">
+      <flaw line="814" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="611" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="612" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-map.c" language="C" size="9111" checksum="6c4d5d3c96dd130cce66acf03e3315034750894f">
+      <flaw line="162" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+      <flaw line="167" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/gtk/main.c" language="C" size="112732" checksum="c65ef1804f2d89e2b10213d54de28d048ed4f10b">
+      <flaw line="2754" name="CWE-426: Untrusted Search Path"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/snoop.c" language="C" size="29680" checksum="98d18156f8773ed8bb3de3f65d265eaa6c539823">
+      <flaw line="448" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/daintree-sna.c" language="C" size="8256" checksum="4896ce13224e25b27e39e84714c1c5ef6fdf94fa">
+      <flaw line="81" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="149" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="82" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="205" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/capture_wpcap_packet.c" language="C" size="9562" checksum="3cfbb48801e2744dbff4ed24587e0217eaa709a1">
+      <flaw line="160" name="CWE-426: Untrusted Search Path"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ssl.c" language="C" size="160426" checksum="287779c655352f22519386750f77697dd74bad4f">
+      <flaw line="1498" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="736" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1329" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1402" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1583" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1621" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1683" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1695" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1794" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1802" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/ascend-scanner.l" size="7044" checksum="5327e7c9165542c6d2d202a24b7fec7c5c7faf0a">
+      <flaw line="162" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="167" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="172" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="203" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="213" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="219" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="230" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="318" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-smb-common.c" language="C" size="8879" checksum="d001d5861497c7d01dec6dec72eed44ec994866b">
+      <flaw line="129" name="CWE-674: Uncontrolled Recursion"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-lwres.c" language="C" size="37460" checksum="59a750a1d992f5c77e077770550f3d0e4f0feff1">
+      <flaw line="429" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="447" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="448" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="449" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="428" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="484" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="485" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="486" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="514" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="521" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="522" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="523" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="573" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="595" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="596" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="597" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="574" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="641" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="642" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="643" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="943" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="951" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="952" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="953" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1005" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1016" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1017" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1018" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/tshark.c" language="C" size="100915" checksum="c8bf204a460489e8f2e623dcebaab1a9bb8294c5">
+      <flaw line="2411" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="2329" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="2430" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="2444" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="2505" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-sflow.c" language="C" size="68549" checksum="c910e466c4e2f2cd3b937148b02a7737008fddcf">
+      <flaw line="962" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1019" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1131" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1159" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1175" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="577" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="580" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="583" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="587" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="692" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="701" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="703" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="705" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="707" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="720" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="724" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="727" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="729" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="732" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="734" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="737" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="739" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="741" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="744" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="747" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="757" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="759" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="761" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="763" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="775" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="779" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="783" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="788" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="793" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="795" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="815" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="818" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="821" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="826" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="853" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="855" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="868" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="878" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="883" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="886" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="899" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="902" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="906" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="909" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="913" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="925" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="928" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="932" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="934" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="937" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="941" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="961" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="967" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="970" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="972" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="975" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="978" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="981" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="984" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="992" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="997" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1012" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1018" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1070" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1085" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1130" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1136" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1139" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1141" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1146" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1150" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1170" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1174" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1191" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1193" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1195" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1197" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1201" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1203" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1205" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1207" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1209" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1211" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1213" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1215" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1217" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1219" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1221" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1223" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1225" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1227" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1229" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1237" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1239" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1241" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1243" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1245" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1247" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1249" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1251" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1253" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1255" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1257" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1259" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1261" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1264" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1267" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1270" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1273" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1331" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1382" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1386" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1395" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1404" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1418" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1424" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1426" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="1432" name="CWE-190: Integer Overflow or Wraparound"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-afs.c" language="C" size="110671" checksum="6254cf4605b8752d150a31c25b537da7958d8af1">
+      <flaw line="425" name="CWE-125: Out-of-bounds Read"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-x509if.c" language="C" size="124512" checksum="a1ce0f04232bbf1211728282f72b5851b742b85c">
+      <flaw line="303" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="397" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="425" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="478" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="601" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="622" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="652" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="799" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="811" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="1369" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="1403" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="1465" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="1566" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="1687" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="307" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="869" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="308" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="936" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="309" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="358" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="415" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="873" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="310" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="366" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="315" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="911" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="914" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="918" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="316" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="359" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="416" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="875" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="322" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="427" name="CWE-457: Use of Uninitialized Variable"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-smb.c" language="C" size="570611" checksum="31c6386fa8166f32a21481f966600318d3693c31">
+      <flaw line="8524" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8702" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8211" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8667" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8435" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8437" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8439" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="8457" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="2174" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2191" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2195" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2196" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/erf.c" language="C" size="13117" checksum="c5e62c1f3abafe5a521cb490fbf2aa435b486c07">
+      <flaw line="109" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="127" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="129" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="134" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="138" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="186" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="204" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="213" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="221" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-paltalk.c" language="C" size="4432" checksum="fe6604e58967e777664da1eba3cd3a0caa53a317">
+      <flaw line="62" name="CWE-188: Reliance on Data/Memory Layout"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ipmi-se.c" language="C" size="124068" checksum="72e16c1c220cfebcda49222030f8f8889cdd461d">
+      <flaw line="2727" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2737" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2743" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2746" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2748" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2752" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/diam_dict.c" language="C" size="92592" checksum="81e49becee135b52de76b32c71e6c75cb6a1ef77">
+      <flaw line="1477" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1545" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-dcerpc-nt.c" language="C" size="48661" checksum="553e1d7a4367f62435a69966e9d484297f2df6ff">
+      <flaw line="248" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="252" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="256" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1138" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1142" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1146" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1201" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1205" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1209" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1314" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1318" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="1322" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/pcapng.c" language="C" size="52027" checksum="2d4b99a25f80764f114f4586ebeec7d96a8d8497">
+      <flaw line="673" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="686" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="693" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="696" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="710" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="717" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="836" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="845" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="847" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="1213" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/visual.c" language="C" size="31118" checksum="c5e8ade36ac5feeed985de8979c611fdf2c98ef2">
+      <flaw line="403" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="408" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="414" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/epan.c" language="C" size="4417" checksum="e561eba0e14bf8c98afe07d32be4dad2efffda92">
+      <flaw line="185" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="172" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-mms.c" language="C" size="438232" checksum="c912f8018fd57ef1cdab4db866ab5b63f5c867df">
+      <flaw line="4404" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-btl2cap.c" language="C" size="42203" checksum="5716965a5b3c983db6c1986b12ddf6e2b4d914b3">
+      <flaw line="805" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="973" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="659" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="668" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="669" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/diam_dict.l" size="17899" checksum="fe01cc09ed3267c72e7418a79bb1d48d75bc863f">
+      <flaw line="272" name="CWE-476: NULL Pointer Dereference"/>
+      <flaw line="311" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/opcua/opcua_simpletypes.c" language="C" size="36827" checksum="fa544ce10b7544bc646e5e7e76ebbd022c16fbcb">
+      <flaw line="648" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+      <flaw line="677" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+      <flaw line="703" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+      <flaw line="728" name="CWE-400: Uncontrolled Resource Consumption ('Resource Exhaustion')"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-gsm_a_rr.c" language="C" size="366379" checksum="0aa307da7ff1046da51b44a37651ef47b5b9b510">
+      <flaw line="693" name="CWE-457: Use of Uninitialized Variable"/>
+      <flaw line="8447" name="CWE-457: Use of Uninitialized Variable"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-dtls.c" language="C" size="72858" checksum="ffab00060e10aa0b3e4f3e2be14a019794e70a88">
+      <flaw line="787" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="845" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="908" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="920" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1078" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1087" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/value_string.c" language="C" size="5692" checksum="e42e7ae2970c72744a559b630bc2e014f7ada2de">
+      <flaw line="49" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/dct3trace.c" language="C" size="9769" checksum="523e57511b1c535f73ee61e72ca767650388c255">
+      <flaw line="375" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="216" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="286" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="316" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="388" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-dcm.c" language="C" size="329975" checksum="818e8dfe7d04299aede6b0f28f49755491363c60">
+      <flaw line="6373" name="CWE-190: Integer Overflow or Wraparound"/>
+      <flaw line="6352" name="CWE-190: Integer Overflow or Wraparound"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ntlmssp.c" language="C" size="69818" checksum="f6fa88d88944f20f40fc1b8fb9bbaabf2a0afe9a">
+      <flaw line="388" name="CWE-690: Null Deref from Return"/>
+      <flaw line="392" name="CWE-690: Null Deref from Return"/>
+      <flaw line="1098" name="CWE-690: Null Deref from Return"/>
+      <flaw line="1107" name="CWE-690: Null Deref from Return"/>
+      <flaw line="1120" name="CWE-690: Null Deref from Return"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/asn1/snmp/packet-snmp-template.c" language="C" size="66787" checksum="3d8bea7693802fbde2846956b5498fd2958cd2e7">
+      <flaw line="1768" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ber.c" language="C" size="151226" checksum="131bc24cd7b2701cf508b6e69e0d3e78e3e212e1">
+      <flaw line="2506" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="376" name="CWE-674: Uncontrolled Recursion"/>
+      <flaw line="452" name="CWE-674: Uncontrolled Recursion"/>
+      <flaw line="565" name="CWE-674: Uncontrolled Recursion"/>
+      <flaw line="763" name="CWE-674: Uncontrolled Recursion"/>
+      <flaw line="802" name="CWE-674: Uncontrolled Recursion"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/packet.c" language="C" size="51107" checksum="d84cf2bcdc0d110eb8c49162446ad8f8167a42b2">
+      <flaw line="328" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="343" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="1799" name="CWE-457: Use of Uninitialized Variable"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-mac-lte.c" language="C" size="65247" checksum="106a824b55207eeb8e0c22abb41fd7bb2148587b">
+      <flaw line="467" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="556" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="561" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="569" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-http.c" language="C" size="76609" checksum="522a895389e345b66d34d57f28e80ecc4429bfdc">
+      <flaw line="2208" name="CWE-415: Double Free"/>
+      <flaw line="1103" name="CWE-415: Double Free"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ldap.c" language="C" size="189015" checksum="80169e6b521855e9f4bdb024935da6defea85b4f">
+      <flaw line="2032" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="3640" name="CWE-674: Uncontrolled Recursion"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-bpkmrsp.c" language="C" size="5141" checksum="482365c3980829bb1ac990d7bd2b4b4e6a327bb4">
+      <flaw line="90" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-dscrsp.c" language="C" size="4598" checksum="930f17afacd1f950fa516563f24dc695a8e696c2">
+      <flaw line="73" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-dsaack.c" language="C" size="4595" checksum="d17a483a40585db71419ade53423a0565b35f895">
+      <flaw line="72" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/wiretap/ascend-scanner.c" language="C" size="80057" checksum="398b19c9745c191ef730294f4684778b93a17c82">
+      <flaw line="1" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/emem.c" language="C" size="43442" checksum="86bea42cd3f2481d24d8ff191861b2d920af97e9">
+      <flaw line="574" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+      <flaw line="560" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-regack.c" language="C" size="4580" checksum="26fb7467e4c97f3882cfdc2e8c92e8c5f6608c48">
+      <flaw line="72" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-smb2.c" language="C" size="187368" checksum="483ff36d8b91e6312eb35ed16df15feff5c1c652">
+      <flaw line="955" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-radius.c" language="C" size="67778" checksum="0e92a8cd466b240107a07242279a1f0efdb912bc">
+      <flaw line="880" name="CWE-460: Improper Cleanup on Thrown Exception"/>
+      <flaw line="897" name="CWE-460: Improper Cleanup on Thrown Exception"/>
+      <flaw line="906" name="CWE-460: Improper Cleanup on Thrown Exception"/>
+      <flaw line="913" name="CWE-460: Improper Cleanup on Thrown Exception"/>
+      <flaw line="1005" name="CWE-460: Improper Cleanup on Thrown Exception"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/sigcomp-udvm.c" language="C" size="112031" checksum="87a4f314392042e8b27ee0a60cb928b9c8f417a8">
+      <flaw line="341" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="404" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="446" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="481" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="522" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="563" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="603" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="643" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="691" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="741" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="791" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="944" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1002" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1296" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2051" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2237" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2813" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2825" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2878" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2979" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2883" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2896" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2909" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2966" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="3023" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="3031" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="3058" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="3060" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="326" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="2580" name="CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer"/>
+      <flaw line="1928" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="337" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/capture-wpcap.c" language="C" size="21462" checksum="6e2799a05918d24f6c5ee73ba370ee1d670bb833">
+      <flaw line="190" name="CWE-426: Untrusted Search Path"/>
+      <flaw line="832" name="CWE-426: Untrusted Search Path"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-dsarsp.c" language="C" size="4598" checksum="66ad4b263abf3584ab7808e01c823c5f573ffcf5">
+      <flaw line="72" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-ipmi.c" language="C" size="43493" checksum="4fa6af591d74a0ebb64cb38d8a8d30524c82f8c2">
+      <flaw line="1132" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="1337" name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')"/>
+      <flaw line="792" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/airpcap_loader.c" language="C" size="71531" checksum="8158f93064fc6b470da29581048117c9f655b49d">
+      <flaw line="2454" name="CWE-426: Untrusted Search Path"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-bpkmreq.c" language="C" size="5129" checksum="77992f7716ece5f128510d490d03c4fb6f5ddeda">
+      <flaw line="89" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-infiniband.c" language="C" size="163532" checksum="bfcb653721e2a726a61dd11609ae0fef6b450f81">
+      <flaw line="945" name="CWE-416: Use After Free"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/asn1/ldap/packet-ldap-template.c" language="C" size="73411" checksum="1bff98813151a817c9d94bc6a826e361ec1395ed">
+      <flaw line="1102" name="CWE-674: Uncontrolled Recursion"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-dscack.c" language="C" size="4603" checksum="1564b8cdcbe0a8482e178b7beaefc756dd1d42ff">
+      <flaw line="72" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/plugins/docsis/packet-regrsp.c" language="C" size="4568" checksum="90a6e309a086a71e535c35afbaf403f7a2f7262d">
+      <flaw line="73" name="CWE-628: Function Call with Incorrectly Specified Arguments"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/tvbuff.c" language="C" size="75514" checksum="14cb5665d4ea9a9f1d079fba16596e1f3f9ea276">
+      <flaw line="220" name="CWE-191: Integer Underflow (Wrap or Wraparound)"/>
+      <flaw line="3097" name="CWE-415: Double Free"/>
+      <flaw line="3064" name="CWE-415: Double Free"/>
+      <flaw line="3084" name="CWE-415: Double Free"/>
+      <flaw line="221" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="288" name="CWE-789: Uncontrolled Memory Allocation"/>
+      <flaw line="262" name="CWE-789: Uncontrolled Memory Allocation"/>
+    </file>
+    <file path="SATE/wireshark-1.2.0/epan/dissectors/packet-smb-pipe.c" language="C" size="117072" checksum="968de7922282bd6f30a0209d0c7f49904953cd06">
+      <flaw line="2136" name="CWE-476: NULL Pointer Dereference"/>
+    </file>
+  </testcase>
+</container>

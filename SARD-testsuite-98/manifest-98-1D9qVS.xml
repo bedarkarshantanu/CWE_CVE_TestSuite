@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="149013" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="1" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2009-1596]]></description>
+    <file path="SATE/openfire-3.6.0/src/java/org/jivesoftware/openfire/handler/IQAuthHandler.java" language="Java" size="16062" checksum="d3415b954b5e45e4207f85789102fe87f5b8e6ff">
+      <flaw line="142" name="CWE-862: Missing Authorization"/>
+    </file>
+  </testcase>
+  <testcase id="149014" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="2" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2008-6509]]></description>
+    <file path="SATE/openfire-3.6.0/src/plugins/sip/src/web/sipark-log-summary.jsp" size="19760" checksum="668290cf59b0a6401409ce0ed8a1d2af20fec822">
+      <flaw line="163" name="CWE-089: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/plugins/sip/src/java/org/jivesoftware/openfire/sip/calllog/CallLogDAO.java" language="Java" size="7185" checksum="13fb45e28623331bc12ea3a26d3e6dc0e795dfec">
+      <flaw line="49" name="CWE-089: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"/>
+    </file>
+  </testcase>
+  <testcase id="149015" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="1" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2009-0497]]></description>
+    <file path="SATE/openfire-3.6.0/src/web/log.jsp" size="6218" checksum="aa78ebff002bb9f1a9fed7b6ee3bb379cc09c6fd">
+      <flaw line="74" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="93" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="149016" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="1" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2006-7233]]></description>
+    <file path="SATE/openfire-3.6.0/src/web/login.jsp" size="12125" checksum="b853a603582e6bc300bb331c4a9c0981305972e1">
+      <flaw line="232" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="48" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149017" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="1" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2009-0496 (1)]]></description>
+    <file path="SATE/openfire-3.6.0/src/web/logviewer.jsp" size="17439" checksum="35a5646339dec5863423364dc6f194a22004e99c">
+      <flaw line="111" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="240" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="435" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149018" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="1" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2009-0496 (2)]]></description>
+    <file path="SATE/openfire-3.6.0/src/web/group-summary.jsp" size="7347" checksum="b58b38720895807ca3d597f65c18ac883a5b9780">
+      <flaw line="48" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="90" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149019" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="1" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2009-0496 (3)]]></description>
+    <file path="SATE/openfire-3.6.0/src/web/user-properties.jsp" size="10649" checksum="ed3f54e37b7b4318cbdae55f84219434c620c16d">
+      <flaw line="149" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="35" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149020" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="1" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2009-0496 (4)]]></description>
+    <file path="SATE/openfire-3.6.0/src/web/audit-policy.jsp" size="12769" checksum="1d46cd5847d567092dbbfafc4b46fe937b6ae31a">
+      <flaw line="223" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="241" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="259" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="277" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="295" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="44" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149021" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="1" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2009-0496 (5)]]></description>
+    <file path="SATE/openfire-3.6.0/src/web/server-properties.jsp" size="11394" checksum="f170c52eb6f796c44e44ce688cd7c9c164f75177">
+      <flaw line="271" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="276" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149022" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="1" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2009-0496 (6)]]></description>
+    <file path="SATE/openfire-3.6.0/src/web/muc-room-edit-form.jsp" size="29226" checksum="102294db4fc6336c165af05fefcc8b35232e9fe3">
+      <flaw line="480" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="485" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="490" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="52" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+  <testcase id="149023" type="Source Code" status="Candidate" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="2" testsuiteid="98" applicationid="21">
+    <description><![CDATA[CVE-2008-6508]]></description>
+    <file path="SATE/openfire-3.6.0/src/web/WEB-INF/web.xml" size="4811" checksum="9ac8044b82d524bc3aa6c0dbbd313d25ec61a07e">
+      <flaw line="27" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/java/org/jivesoftware/admin/AuthCheckFilter.java" language="Java" size="4154" checksum="b0fa41ac780c9f158f811abfe54c44b709e5e525">
+      <flaw line="86" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="94" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+  </testcase>
+  <testcase id="149024" type="Source Code" status="Deprecated" submissionDate="2014-08-01" language="Java" author="Ignite Realtime" numberOfFiles="13" testsuiteid="98" applicationid="21">
+    <description><![CDATA[openfire-3.6.0]]></description>
+    <file path="SATE/openfire-3.6.0/src/web/login.jsp" size="12125" checksum="b853a603582e6bc300bb331c4a9c0981305972e1">
+      <flaw line="232" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="48" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/web/user-properties.jsp" size="10649" checksum="ed3f54e37b7b4318cbdae55f84219434c620c16d">
+      <flaw line="149" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="35" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/web/log.jsp" size="6218" checksum="aa78ebff002bb9f1a9fed7b6ee3bb379cc09c6fd">
+      <flaw line="74" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="93" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/web/audit-policy.jsp" size="12769" checksum="1d46cd5847d567092dbbfafc4b46fe937b6ae31a">
+      <flaw line="223" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="241" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="259" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="277" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="295" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="44" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/web/group-summary.jsp" size="7347" checksum="b58b38720895807ca3d597f65c18ac883a5b9780">
+      <flaw line="48" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="90" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/web/WEB-INF/web.xml" size="4811" checksum="9ac8044b82d524bc3aa6c0dbbd313d25ec61a07e">
+      <flaw line="27" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/web/muc-room-edit-form.jsp" size="29226" checksum="102294db4fc6336c165af05fefcc8b35232e9fe3">
+      <flaw line="480" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="485" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="490" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="52" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/plugins/sip/src/web/sipark-log-summary.jsp" size="19760" checksum="668290cf59b0a6401409ce0ed8a1d2af20fec822">
+      <flaw line="163" name="CWE-089: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/plugins/sip/src/java/org/jivesoftware/openfire/sip/calllog/CallLogDAO.java" language="Java" size="7185" checksum="13fb45e28623331bc12ea3a26d3e6dc0e795dfec">
+      <flaw line="49" name="CWE-089: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/web/server-properties.jsp" size="11394" checksum="f170c52eb6f796c44e44ce688cd7c9c164f75177">
+      <flaw line="271" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="276" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/java/org/jivesoftware/openfire/handler/IQAuthHandler.java" language="Java" size="16062" checksum="d3415b954b5e45e4207f85789102fe87f5b8e6ff">
+      <flaw line="142" name="CWE-862: Missing Authorization"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/java/org/jivesoftware/admin/AuthCheckFilter.java" language="Java" size="4154" checksum="b0fa41ac780c9f158f811abfe54c44b709e5e525">
+      <flaw line="86" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+      <flaw line="94" name="CWE-022: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"/>
+    </file>
+    <file path="SATE/openfire-3.6.0/src/web/logviewer.jsp" size="17439" checksum="35a5646339dec5863423364dc6f194a22004e99c">
+      <flaw line="111" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="240" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+      <flaw line="435" name="CWE-079: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"/>
+    </file>
+  </testcase>
+</container>
